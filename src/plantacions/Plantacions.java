@@ -1,7 +1,7 @@
 // Marc Fonseca
 package plantacions;
 
-import llistes.LlistaRodals;
+import llistes.*;
 
 public class Plantacions {
 	private String nomPartida;
