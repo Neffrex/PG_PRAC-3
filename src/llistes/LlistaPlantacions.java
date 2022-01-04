@@ -7,8 +7,8 @@ public class LlistaPlantacions {
 	private Plantacions[] llista;
 	private int numElem;
 	
-	public LlistaPlantacions(int num) {
-		llista = new Plantacions[num];
+	public LlistaPlantacions() {
+		llista = new Plantacions[10];
 		numElem = 0;
 	}
 	

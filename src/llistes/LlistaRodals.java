@@ -1,7 +1,7 @@
 // Marc Fonseca
 package llistes;
 
-import plantacions.Rodal;
+import plantacions.*;
 
 public class LlistaRodals {
 	private Rodal[] llistaRodals;
