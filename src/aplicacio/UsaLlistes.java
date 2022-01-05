@@ -3,7 +3,11 @@
 */
 package aplicacio;
 import plantacions.*;
+import java.io.*;
 import llistes.*;
+import java.util.Scanner;
+
+import javax.swing.JFileChooser;
 
 public class UsaLlistes {
 
@@ -52,7 +56,44 @@ public class UsaLlistes {
 		System.out.println(llista.toString());
 	}
 
-
-
+	public LlistaPlantes carregaLlistaPlantes(File aux) {
+		Scanner sc = new Scanner(aux), bufferScanner;
+		String buffer;
+		int mida = count_lines(aux);
+		LlistaPlantes llista = new LlistaPlantes(mida);
+		while (sc.hasNextLine()) {
+			buffer = sc.nextLine();
+			String[] llistaParametres = buffer.split(";");
+			if (llistaParametres[0].equalsIgnoreCase("arbre")) {
+				if (llistaParametres.length %2 ==0) {
+					llista.afegirPlanta(new Arbre (llistaParametres[0], llistaParametres[1]))
+				}else {
+					return null;
+				}
+			} else {
+				llista.afegirPlanta(new Arbustos (llistaParametres[0], Integer.parseInt(llistaParametres[1]), Integer.parseInt(llistaParametres[2])));
+			}
+			
+			
+		}
+		return llista;
+	}
+	
+	
+	public static File escoger_archivo() {
+	    JFileChooser seleccionador = new JFileChooser();
+	    File archivo = null;
+	    seleccionador.changeToParentDirectory();
+	    if (seleccionador.showOpenDialog(null) == JFileChooser.APPROVE_OPTION)
+	        archivo = seleccionador.getSelectedFile();
+	    return archivo;
+	}
+	
+	public int count_lines(File file) throws FileNotFoundException {
+	    Scanner sc = new Scanner(file);
+	    int lines = (int) sc.findAll("[\n]").count();
+	    sc.close();
+	    return lines;
+	}
 }
  
