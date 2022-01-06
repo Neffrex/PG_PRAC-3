@@ -13,12 +13,16 @@ import javax.swing.JFileChooser;
 public class UsaLlistes {
 
 	public static void main(String[] args) {
-		LlistaPlantes llistaPlantes = new LlistaPlantes(50);
-		LlistaPlantacions llistaPlantacions = new LlistaPlantacions(5);
-		LlistaTerrenys llistaTerrenys = new LlistaTerrenys(2);
-		comprobarLlista(llistaPlantes);
-		comprobarLlista(llistaTerrenys);
-		comprobarLlista(llistaPlantacions);
+		LlistaPlantes llistaPlantes;
+		LlistaPlantacions llistaPlantacions;
+		try {
+			llistaPlantes = carregaLlistaPlantes(escoger_archivo());
+			llistaPlantacions = carregaLlistaPlantacions(escoger_archivo());
+			System.out.println(llistaPlantes.toString());
+			System.out.println(llistaPlantacions.toString());
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
 	}
 
 	public static void comprobarLlista(LlistaPlantacions llista) {
@@ -60,7 +64,7 @@ public class UsaLlistes {
 		System.out.println(llista.toString());
 	}
 
-	public LlistaPlantes carregaLlistaPlantes(File aux) throws FileNotFoundException{
+	public static LlistaPlantes carregaLlistaPlantes(File aux) throws FileNotFoundException{
 		Scanner sc = new Scanner(aux);
 		String buffer;
 		int mida = count_lines(aux), llistaAbsorcio[], llistaInterval[];
@@ -72,7 +76,7 @@ public class UsaLlistes {
 			String[] llistaParametres = buffer.split(";");
 			if (llistaParametres[0].equalsIgnoreCase("arbre")) {
 				if (llistaParametres.length % 2 == 0) {
-					for (int i = 0; i < (llistaParametres.length - 2) / 2; i++) {
+					for (int i = 0; i < ((llistaParametres.length) - 2) / 2; i++) {
 						llistaAbsorcio[i] = Integer.parseInt(llistaParametres[i + 2]);
 						llistaInterval[i] = Integer.parseInt(llistaParametres[i + 3]);
 					}
@@ -82,28 +86,31 @@ public class UsaLlistes {
 					return null;
 				}
 			} else {
-				llista.afegirPlanta(new Arbustos(llistaParametres[0], Integer.parseInt(llistaParametres[1]),
-						Integer.parseInt(llistaParametres[2])));
+				llista.afegirPlanta(new Arbustos(llistaParametres[1], Integer.parseInt(llistaParametres[2]),
+						Integer.parseInt(llistaParametres[3])));
 			}
 		}
 		sc.close();
 		return llista;
 	}
 
-	public LlistaPlantacions carregaLlistaPlantacions(File aux) throws FileNotFoundException {
+	public static LlistaPlantacions carregaLlistaPlantacions(File aux) throws FileNotFoundException {
 		Scanner sc = new Scanner(aux);
 		String buffer;
 		int mida=count_lines(aux);
 		LlistaPlantacions llista = new LlistaPlantacions(mida);
-		LlistaRodals llistaRodals = new LlistaRodals(mida);
+		int j=1;
 		while (sc.hasNextLine()) {
 			buffer = sc.nextLine();
 			String[] llistaParametres = buffer.split(";");
-			if (llistaParametres.length %2 ==0) {
-				for (int i=0; i<(llistaParametres.length-2)/2; i++) {
-					llistaRodals.afegir(new Rodal(llistaParametres[i+2], Float.parseFloat(llistaParametres[i+3])));
+			System.out.println(j+"  "+llistaParametres.length);
+			j++;
+			LlistaRodals llistaRodals = new LlistaRodals((llistaParametres.length -2)/2);
+			if (llistaParametres.length % 2== 0) {
+				for (int i=0; i<(llistaParametres.length-2); i+=2) { 
+					llistaRodals.afegir(new Rodal(llistaParametres[i+3], Float.parseFloat(llistaParametres[i+2])));
 				}
-				llista.afegir(new Plantacions(llistaParametres[0], Integer.parseInt(llistaParametres[1]), llistaRodals));
+				llista.afegir(new Plantacions(llistaParametres[0], Integer.parseInt(llistaParametres[1]), llistaRodals));	
 			}else {
 				sc.close();
 				return null;
@@ -116,13 +123,14 @@ public class UsaLlistes {
 	public static File escoger_archivo() {
 		JFileChooser seleccionador = new JFileChooser();
 		File archivo = null;
-		seleccionador.changeToParentDirectory();
+		seleccionador.setCurrentDirectory(new File ("."));
+		seleccionador.setFileSelectionMode(JFileChooser.FILES_ONLY);
 		if (seleccionador.showOpenDialog(null) == JFileChooser.APPROVE_OPTION)
 			archivo = seleccionador.getSelectedFile();
 		return archivo;
 	}
 
-	public int count_lines(File file) throws FileNotFoundException {
+	public static int count_lines(File file) throws FileNotFoundException {
 		Scanner sc = new Scanner(file);
 		int lines = (int) sc.findAll("[\n]").count();
 		sc.close();
