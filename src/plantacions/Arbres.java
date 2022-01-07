@@ -75,8 +75,21 @@ public class Arbres extends Plantes {
 	}
 	
 	@Override
+	public String formatToString() {
+		StringBuilder sb = new StringBuilder("Arbre;");
+		sb.append(nomCientific + ';');
+		for (int i = 0; i < intervalsAbsorcions.length; i++) {
+			sb.append(absorcions[i] + ';' + intervalsAbsorcions[i] + ';');
+		}
+		return sb.toString();
+		
+	}
+	
+	@Override
 	public String toString() {
 		return "Arbres [absorcio=" + Arrays.toString(absorcions) + ", rangEdats=" + Arrays.toString(intervalsAbsorcions) + "]";
 	}
+
+	
 	
 }

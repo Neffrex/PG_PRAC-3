@@ -1,6 +1,11 @@
 package llistes;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
+
 import plantacions.Plantes;
+import util.Util;
 
 /**
  * Classe que implementa la interficie TADLlistaPlantes que especifica la implementació d'una llista de la classe Plantes
@@ -68,14 +73,39 @@ public class LlistaPlantes implements TADLlistaPlantes{
 
 	@Override
 	public Plantes getPlanta(String nomCientific){
-		for (Plantes planta : llistaPlantes){
-			if (planta.getNomCientific().equals(nomCientific)){
-				return planta;
+		for (int i = 0; i < nElem; i++){
+			if (llistaPlantes[i].getNomCientific().equals(nomCientific)){
+				return llistaPlantes[i];
 			}
 		}
 		return null;
 	}
 
+	public boolean guardarEnFitxer() throws FileNotFoundException {
+		File directori = Util.escogerDirectorio();
+		if (directori == null) return false;
+		
+		File archiu = new File(directori.getAbsolutePath()+"\\LlistaPlantes.csv");
+		try {
+			PrintWriter pw = new PrintWriter(archiu);
+			pw.println(formatToString());
+			pw.close();
+			return true;
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
+		return false;
+	}
+	
+	public String formatToString() {
+		StringBuilder sb = new StringBuilder();
+		for (int i = 0; i < nElem; i++) {
+			sb.append(llistaPlantes[i].formatToString()+'\n');
+		}
+		return sb.toString(); 
+	}
+	
+	
 	@Override
 	public String toString(){
 		String buffer = "Llista Plantes: \n";

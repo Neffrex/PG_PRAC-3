@@ -3,17 +3,26 @@
 */
 package aplicacio;
 import plantacions.*;
+
+import java.io.FileNotFoundException;
+
 import llistes.*;
 
 public class UsaLlistes {
 
 	public static void main(String[] args) {
+		
+		new InterficieGrafica();
+		
 		LlistaPlantes llistaPlantes = new LlistaPlantes(50);
-		LlistaPlantacions llistaPlantacions = new LlistaPlantacions(5);
-		LlistaTerrenys llistaTerrenys = new LlistaTerrenys(2);
 		comprobarLlista(llistaPlantes);
-		comprobarLlista(llistaTerrenys);
+		
+		LlistaPlantacions llistaPlantacions = new LlistaPlantacions(5);
 		comprobarLlista(llistaPlantacions);
+		
+		LlistaTerrenys llistaTerrenys = new LlistaTerrenys(2);
+		comprobarLlista(llistaTerrenys);
+		
 	}
 	
 	public static void comprobarLlista(LlistaPlantacions llista) {
@@ -57,6 +66,14 @@ public class UsaLlistes {
 		llista.afegirPlanta(new Arbres("Pino Draculorius", new int[] {5,10}, new double[] {180, 250}));
 		llista.afegirPlanta(new Arbres("Pino Draculorius", new int[] {4,7}, new double[] {190, 340}));
 		llista.afegirPlanta(new Arbres("Pino Draculorius", new int[] {4,6,10}, new double[] {210.28, 374.19, 401.94}));
+		
+		//Guardar Fichero
+		try {
+			if(llista.guardarEnFitxer())
+				System.out.println("");
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
 		
 		System.out.println(llista.toString());
 	}
