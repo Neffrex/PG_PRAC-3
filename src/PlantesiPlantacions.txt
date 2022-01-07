@@ -1,3 +1,0 @@
-Plantes;Arbre;Rang1,Absorcio1;Rang2,Absorcio2;Rang3,Absorcio3;
-Plantes;Arbusto;NomPlanta;Absorcio;
-Plantacions;NomPartida;AnyPlantacio;TipusTerreny1,Superficie1;TipusTerreny1,Superficie2; ...

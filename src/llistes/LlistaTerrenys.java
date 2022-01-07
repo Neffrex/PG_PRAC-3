@@ -13,6 +13,11 @@ public class LlistaTerrenys {
 	private Terrenys[] llista;
 	private int numElem;
 	
+	public LlistaTerrenys() {
+		llista = new Terrenys[100];
+		numElem = 0;
+	}
+	
 	public LlistaTerrenys(int num) {
 		llista = new Terrenys[num];
 		numElem = 0;

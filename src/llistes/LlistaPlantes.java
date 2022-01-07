@@ -11,6 +11,11 @@ public class LlistaPlantes implements TADLlistaPlantes{
 	private int nElem;
     private Plantes llistaPlantes[];
     
+    public LlistaPlantes () {
+        this.nElem=0;
+        llistaPlantes= new Plantes[100];
+    }
+    
     public LlistaPlantes (int mida) {
         this.nElem=0;
         llistaPlantes= new Plantes[mida];

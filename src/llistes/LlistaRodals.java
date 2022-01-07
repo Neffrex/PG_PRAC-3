@@ -19,6 +19,10 @@ public class LlistaRodals {
 		}	
 	}
 
+	public Rodal getLlistaRodals(int i) {
+		return llistaRodals[i];
+	}
+
 	public int getNumElem() {
 		return numElem;
 	}
