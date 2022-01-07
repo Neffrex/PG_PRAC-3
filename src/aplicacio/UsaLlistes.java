@@ -118,6 +118,36 @@ public class UsaLlistes {
 		return llista;
 	}
 	
+	public static LlistaPlantes carregaLlistaPlantes(File aux) throws FileNotFoundException{
+		Scanner sc = new Scanner(aux);
+		String buffer;
+		int mida = count_lines(aux), llistaAbsorcio[], llistaInterval[];
+		LlistaPlantes llista = new LlistaPlantes(mida);
+		llistaAbsorcio = new int[mida];
+		llistaInterval = new int[mida];
+		while (sc.hasNextLine()) {
+			buffer = sc.nextLine();
+			String[] llistaParametres = buffer.split(";");
+			if (llistaParametres[0].equalsIgnoreCase("arbre")) {
+				if (llistaParametres.length % 2 == 0) {
+					for (int i = 0; i < ((llistaParametres.length) - 2) / 2; i++) {
+						llistaAbsorcio[i] = Integer.parseInt(llistaParametres[i + 2]);
+						llistaInterval[i] = Integer.parseInt(llistaParametres[i + 3]);
+					}
+					llista.afegirPlanta(new Arbres(llistaParametres[1], llistaInterval, llistaAbsorcio));
+				} else {
+					sc.close();
+					return null;
+				}
+			} else {
+				llista.afegirPlanta(new Arbustos(llistaParametres[1], Integer.parseInt(llistaParametres[2]),
+						Integer.parseInt(llistaParametres[3])));
+			}
+		}
+		sc.close();
+		return llista;
+	}
+	
 	public static File escoger_archivo() {
 		JFileChooser seleccionador = new JFileChooser();
 		File archivo = null;
@@ -288,16 +318,18 @@ public class UsaLlistes {
 					}
 				}while (!(opcio.equalsIgnoreCase("Si") || opcio.equalsIgnoreCase("No")));
 				
-				System.out.println("Quin es el nou tipus de terreny?");
-				String terreny = teclat.nextLine();
-				
-				if (llista.getLlista()[i].getRodals().getLlistaRodals(j).getTipusTerreny().equalsIgnoreCase(terreny)) {
-					System.out.println("El tipus de terreny ja es aquest");
-				}
-				else {
-					llista.getLlista()[i].getRodals().getLlistaRodals(j).setTipusTerreny(terreny);
-					System.out.println("Tipus de terreny modificat correctament");
-				}
+				if (opcio.equalsIgnoreCase("Si")) {
+					System.out.println("Quin es el nou tipus de terreny?");
+					String terreny = teclat.nextLine();
+					
+					if (llista.getLlista()[i].getRodals().getLlistaRodals(j).getTipusTerreny().equalsIgnoreCase(terreny)) {
+						System.out.println("El tipus de terreny ja es aquest");
+					}
+					else {
+						llista.getLlista()[i].getRodals().getLlistaRodals(j).setTipusTerreny(terreny);
+						System.out.println("Tipus de terreny modificat correctament");
+					}
+				}	
 				
 				System.out.println("Vols modificar la superficie? (0-Si  1-No)");
 				opcio = teclat.nextLine();
@@ -310,15 +342,17 @@ public class UsaLlistes {
 					}
 				}while (!(opcio.equalsIgnoreCase("Si") || opcio.equalsIgnoreCase("No")));
 				
-				System.out.println("Quina es la nova superficie? (Els decimals amb '.')");
-				double superficie = Double.parseDouble(teclat.nextLine());
-				
-				if (llista.getLlista()[i].getRodals().getLlistaRodals(j).getSuperficie() == superficie) {
-					System.out.println("La superficie ja es aquesta");
-				}
-				else {
-					llista.getLlista()[i].getRodals().getLlistaRodals(j).setSuperficie(superficie);;
-					System.out.println("Suerficie modificada correctament");
+				if (opcio.equalsIgnoreCase("Si")) {
+					System.out.println("Quina es la nova superficie? (Els decimals amb '.')");
+					double superficie = Double.parseDouble(teclat.nextLine());
+					
+					if (llista.getLlista()[i].getRodals().getLlistaRodals(j).getSuperficie() == superficie) {
+						System.out.println("La superficie ja es aquesta");
+					}
+					else {
+						llista.getLlista()[i].getRodals().getLlistaRodals(j).setSuperficie(superficie);;
+						System.out.println("Suerficie modificada correctament");
+					}
 				}
 			}
 		}
@@ -349,9 +383,15 @@ public class UsaLlistes {
 	
 	// 15. Sortir. Permetre sortir guardant la informaciÃ³ de les classes als fitxers o no.
 	public static void opcio15(LlistaPlantacions llistaPlantacions, LlistaTerrenys llistaTerrenys, LlistaPlantes llistaPlantes) {
-		
-		System.out.println("Vols guardar l'informacio modificada als seus arxius corresponents? [1] Si o [2] No");
-		if (teclat.nextLine().equals("1")){
+		String opcio;
+		do {
+			System.out.println("Vols modificar el tipus de terreny? (0-Si  1-No)");
+			opcio = teclat.nextLine();
+			if (!(opcio.equalsIgnoreCase("Si") || opcio.equalsIgnoreCase("No"))) {
+				System.out.println("No es una opcio valida");
+			}
+		}while (!(opcio.equalsIgnoreCase("Si") || opcio.equalsIgnoreCase("No")));
+		if (teclat.nextLine().equals("Si")){
 			System.out.println("Les dades es guardaran en els fitxers originals.");
 			//guardaLlistaTerrenys(llistaTerrenys);
 		}
