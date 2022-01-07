@@ -69,7 +69,7 @@ public class LlistaPlantes implements TADLlistaPlantes{
 	@Override
 	public Plantes getPlanta(String nomCientific){
 		for (Plantes planta : llistaPlantes){
-			if (planta.getNomCientific().equals(nomCientific)){
+			if (planta.getNomCientific().equalsIgnoreCase(nomCientific)){
 				return planta;
 			}
 		}
