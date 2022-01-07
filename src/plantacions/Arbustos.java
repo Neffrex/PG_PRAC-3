@@ -35,7 +35,7 @@ public class Arbustos extends Plantes{
 	
 	@Override
 	public String toString() {
-		return "Arbustos [absorcio=" + absorcio + ", edatMaxima=" + edatMaxima + "]";
+		return "Arbustos [absorcio("+this.getNomCientific()+")=" + absorcio + ", edatMaxima=" + edatMaxima + "]";
 	}
 	
 }

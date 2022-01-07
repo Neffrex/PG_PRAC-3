@@ -26,7 +26,6 @@ public class InterficieGrafica extends JFrame {
 		setLocationRelativeTo(null);
 		setResizable(false);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setLayout();
 		
 		panelPrincipal = new JPanel();
 		panelPrincipal.setLayout(new GridLayout(0,2));
