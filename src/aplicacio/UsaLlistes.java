@@ -37,10 +37,7 @@ public class UsaLlistes {
 		
 		do  {
 			mostraMenu();
-			opcio=0;
-			while((opcio!=1)&&(opcio!=2)&&(opcio!=3)&&(opcio!=4)&&(opcio!=5)&&(opcio!=6)&&(opcio!=7)&&(opcio!=8)&&(opcio!=9)&&(opcio!=10)&&(opcio!=11)&&(opcio!=12)&&(opcio!=13)&&(opcio!=14)) {
-				opcio = Integer.parseInt(teclat.nextLine());
-			}
+			opcio = Integer.parseInt(teclat.nextLine());
 			switch (opcio) {
 			case 1:
 				System.out.println("Escull els fitxers per cada llista:");
