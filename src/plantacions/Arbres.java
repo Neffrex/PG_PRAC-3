@@ -4,13 +4,25 @@
  */
 package plantacions;
 
-import java.util.Arrays;
-
 public class Arbres extends Plantes{
 	// TODO Canvi en el tipus de emmagatzematge de absorcio i rangEdats de forma que estiguin relacionades
 	private int[] intervalsAbsorcions;
 	private double[] absorcions;
 
+	/**
+	 * 
+	 * @param nomCientific
+	 */
+	public Arbres(String nomCientific) {
+		super(nomCientific, Plantes.ARBOREA);
+	}
+	
+	/**
+	 * 
+	 * @param nomCientific
+	 * @param intervals
+	 * @param absorcions
+	 */
 	public Arbres(String nomCientific, int[] intervals, double[] absorcions) {
 		super(nomCientific, Plantes.ARBOREA);
 		setAbsorcions(intervals, absorcions);
@@ -44,7 +56,6 @@ public class Arbres extends Plantes{
 	 * @return <code>true</code> si s'ha efectuat el canvi amb èxit o <code>false</code> si ha hagut un error.
 	 */
 	public boolean setAbsorcions(int[] intervals, double[] absorcions) {
-		if (absorcions.length != intervals.length || !isOrdered(intervals, true)) return false;
 		
 		this.absorcions = absorcions;
 		this.intervalsAbsorcions = intervals;
@@ -102,7 +113,16 @@ public class Arbres extends Plantes{
 	
 	@Override
 	public String toString() {
-		return "Arbres [absorcio=" + Arrays.toString(absorcions) + ", rangEdats=" + Arrays.toString(intervalsAbsorcions) + "]";
+		StringBuilder sb = new StringBuilder("Arbre:\nEdad");
+		
+		int i;
+		for (i = 0; i < absorcions.length-1; i++){
+			sb.append(String.format("[%d, %d) -> %,.2f CO2\n", intervalsAbsorcions[i], intervalsAbsorcions[i+1], absorcions[i]));
+		}
+		sb.append(String.format("[%d, inf) -> %,.2f CO2", intervalsAbsorcions[i], absorcions[i]));
+		
+		return sb.toString();
 	}
+
 	
 }

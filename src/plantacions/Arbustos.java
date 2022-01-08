@@ -13,8 +13,12 @@ public class Arbustos extends Plantes{
 		this.edatMaxima=edatMaxima;
 	}
 	
-	public int getAbsorcio() {
-		return this.absorcio;
+	public int getAbsorcio(int edat) {
+		if ((edat>5)&&(edat<edatMaxima)) {
+			return this.absorcio;
+		}else {
+			return 0;
+		}
 	}
 
 	public int getEdatMaxima() {

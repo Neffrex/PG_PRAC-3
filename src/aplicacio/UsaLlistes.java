@@ -1,12 +1,10 @@
 package aplicacio;
 
-
 import javax.swing.JFileChooser;
 import plantacions.*;
 import llistes.*;
 import java.util.Scanner;
 import java.io.*;
-
 
 public class UsaLlistes {
 
@@ -19,6 +17,7 @@ public class UsaLlistes {
 		LlistaPlantacions llistaPlantacions = new LlistaPlantacions();
 		LlistaTerrenys llistaTerrenys = new LlistaTerrenys();
 		LlistaPlantes llistaPlantes = new LlistaPlantes();
+		
 		do {
 			System.out.println("En quin any estem? (Entre 1953 i 2022)");
 			any = Integer.parseInt(teclat.nextLine());
@@ -75,10 +74,10 @@ public class UsaLlistes {
 				opcio12(any);
 				break;
 			case 13: 
-				opcio13();
+				opcio13(llistaPlantes, llistaPlantacions, llistaTerrenys, any);
 				break;
 			case 14: 
-				opcio14();
+				opcio14(llistaPlantes, llistaPlantacions, llistaTerrenys, any);
 				break;
 			case 15: 
 				opcio15(llistaPlantacions, llistaTerrenys, llistaPlantes);
@@ -93,6 +92,12 @@ public class UsaLlistes {
 		
 	}
 	
+	/**
+	 * Carregar la llista de plantacions
+	 * @param aux
+	 * @return - llista carregada amb les plantacions y les seves dades
+	 * @throws FileNotFoundException
+	 */
 	public static LlistaPlantacions carregaLlistaPlantacions(File aux) throws FileNotFoundException {
 		Scanner sc = new Scanner(aux);
 		String buffer;
@@ -115,6 +120,12 @@ public class UsaLlistes {
 		return llista;
 	}
 	
+	/**
+	 * Carregar la llista de plantes
+	 * @param aux
+	 * @return - llista amb les plantes y les seves dades
+	 * @throws FileNotFoundException
+	 */
 	public static LlistaPlantes carregaLlistaPlantes(File aux) throws FileNotFoundException {
 		Scanner sc = new Scanner(aux);
 		String buffer;
@@ -145,7 +156,13 @@ public class UsaLlistes {
 		sc.close();
 		return llista;
 	}
-
+	
+	/**
+	 * Carrega la llista de terrenys
+	 * @param aux
+	 * @return - llista amb terrenys y les seves dades
+	 * @throws IOException
+	 */
 	public static LlistaTerrenys carregaLlistaTerrenys (File aux) throws IOException {
 		LlistaTerrenys llista = new LlistaTerrenys();
 		ObjectInputStream inputFile;
@@ -176,6 +193,10 @@ public class UsaLlistes {
 		return llista;
 	}		
 
+	/**
+	 * Funcio per guardar la llista de plantacions
+	 * @param llista
+	 */
 	public static void guardaLlistaPlantacions(LlistaPlantacions llista){
 		try {																										
 			File fit = new File("Plantacions23.csv");			
@@ -187,7 +208,7 @@ public class UsaLlistes {
 			for (int i=0; i<llista.getNumElem(); i++) {	
 				pw.printf("%s;%d", llista.getLlista()[i].getNomPartida(), llista.getLlista()[i].getAnyPlantacio());
 				for (int j = 0; j < llista.getLlista()[i].getRodals().getNumElem(); j++) {
-					pw.printf(";%.2f;%s", llista.getLlista()[i].getRodals().getLlistaRodals(j).getSuperficie(), llista.getLlista()[i].getRodals().getLlistaRodals(j).getTipusTerreny());
+					pw.printf(";%.2f;%s", llista.getLlista()[i].getRodals().getRodal(j).getSuperficie(), llista.getLlista()[i].getRodals().getRodal(j).getTipusTerreny());
 				}
 				pw.printf("%n");
 			}
@@ -198,6 +219,10 @@ public class UsaLlistes {
 		}
 	}
 
+	/**
+	 * Funcio per guardar la llista de terrenys
+	 * @param llista
+	 */
 	public static void guardaLlistaTerrenys (LlistaTerrenys llista) {
 		ObjectOutputStream outputFile;
 
@@ -214,8 +239,39 @@ public class UsaLlistes {
 		}
 	}
 	
-	
+	/**
+	 * 
+	 * @param aux
+	 * @return
+	 * @throws FileNotFoundException
+	 */
+	public static LlistaTerrenys afegirDades (String aux) throws FileNotFoundException {
 
+        LlistaTerrenys llista = new LlistaTerrenys();
+
+        Scanner f = new Scanner (new File (aux));
+        String[] delimitador1, delimitador2, delimitador3;
+        int[] array;
+
+        while (f.hasNextLine()) {
+            delimitador1 = f.nextLine().split(";");
+            delimitador2 = delimitador1[1].split(",");
+            delimitador3 = delimitador1[2].split(",");
+            array = new int[delimitador3.length];
+            for(int i=0; i<delimitador3.length; i++) {
+                array[i] = Integer.parseInt(delimitador3[i]);
+            }
+            llista.afegir(new Terrenys(delimitador1[0], delimitador2, array));
+
+        }
+
+        return llista;
+    }
+	
+	/**
+	 * Funcio per escullir un arxiu
+	 * @return
+	 */
 	public static File escoger_archivo() {
 		JFileChooser seleccionador = new JFileChooser();
 		File archivo = null;
@@ -225,7 +281,7 @@ public class UsaLlistes {
 			archivo = seleccionador.getSelectedFile();
 		return archivo;
 	}
-	
+
 	public static void mostraMenu() {
 		System.out.println("\n\nOpcions del menu:");
 		System.out.println("\n\t1.  Carregar les dades dels fitxers");
@@ -297,21 +353,35 @@ public class UsaLlistes {
 		String nomCientific = teclat.nextLine();
 		
 		System.out.println("Introdueix l'edat de la planta:");
-		int any = teclat.nextInt();
+		int any = Integer.parseInt(teclat.nextLine());
 		
 		if (llista.getPlanta(nomCientific)!=null) {
 			if (llista.getPlanta(nomCientific).getTipus()==false) {
 				Arbustos arbust = (Arbustos) llista.getPlanta(nomCientific);
-				System.out.println("Absorcio de l'arbust "+arbust.getNomCientific()+"Ã©s:"+arbust.getAbsorcio());
+				System.out.println("Absorcio de larbust "+arbust.getNomCientific()+"es:"+arbust.getAbsorcio(any));
 			}
 			else {
 				Arbres arbre = (Arbres) llista.getPlanta(nomCientific);
-				System.out.println("Absorcio de l'arbre "+arbre.getNomCientific()+" es: "+arbre.getAbsorcio(any));
+				System.out.println("Absorcio de larbre "+arbre.getNomCientific()+" es: "+arbre.getAbsorcio(any));
 			}
 		}
 		else {
 			System.out.println("No existeix cap planta amb aquest nom en la llista.");
 		}
+	}
+	
+	public static int opcio7(LlistaPlantes llista, String nomCientific, int edat) {
+		if (llista.getPlanta(nomCientific)!=null) {
+			if (llista.getPlanta(nomCientific).getTipus()==false) {
+				Arbustos arbust = (Arbustos) llista.getPlanta(nomCientific);
+				return arbust.getAbsorcio(edat);
+			}
+			else {
+				Arbres arbre = (Arbres) llista.getPlanta(nomCientific);
+				return (int) arbre.getAbsorcio(edat);
+			}
+		}
+		return 0;
 	}
 	
 	// 8. Afegir una nova especie de planta
@@ -335,7 +405,8 @@ public class UsaLlistes {
 			edatMaxima=Integer.parseInt(teclat.nextLine());
 			llista.afegirPlanta(new Arbustos(nom, absorcio, edatMaxima));
 			System.out.println("Arbust afegit!");
-		}else {
+		}
+		else {
 			int n_intervals, absorcio[], intervals[];
 			System.out.println("Quants intervals te aquest arbre?");
 			n_intervals=Integer.parseInt(teclat.nextLine());
@@ -423,7 +494,7 @@ public class UsaLlistes {
 				System.out.println("Aquest rodal no existeix");
 			}
 			else {
-				System.out.println("Aquest rodal te: " +llista.getLlista()[i].getRodals().getLlistaRodals(j).toString());
+				System.out.println("Aquest rodal te: " +llista.getLlista()[i].getRodals().getRodal(j).toString());
 				String opcio = "";
 				
 				do {
@@ -438,11 +509,11 @@ public class UsaLlistes {
 					System.out.println("Quin es el nou tipus de terreny?");
 					String terreny = teclat.nextLine();
 					
-					if (llista.getLlista()[i].getRodals().getLlistaRodals(j).getTipusTerreny().equalsIgnoreCase(terreny)) {
+					if (llista.getLlista()[i].getRodals().getRodal(j).getTipusTerreny().equalsIgnoreCase(terreny)) {
 						System.out.println("El tipus de terreny ja es aquest");
 					}
 					else {
-						llista.getLlista()[i].getRodals().getLlistaRodals(j).setTipusTerreny(terreny);
+						llista.getLlista()[i].getRodals().getRodal(j).setTipusTerreny(terreny);
 						System.out.println("Tipus de terreny modificat correctament");
 					}
 				}	
@@ -462,11 +533,11 @@ public class UsaLlistes {
 					System.out.println("Quina es la nova superficie? (Els decimals amb '.')");
 					double superficie = Double.parseDouble(teclat.nextLine());
 					
-					if (llista.getLlista()[i].getRodals().getLlistaRodals(j).getSuperficie() == superficie) {
+					if (llista.getLlista()[i].getRodals().getRodal(j).getSuperficie() == superficie) {
 						System.out.println("La superficie ja es aquesta");
 					}
 					else {
-						llista.getLlista()[i].getRodals().getLlistaRodals(j).setSuperficie(superficie);;
+						llista.getLlista()[i].getRodals().getRodal(j).setSuperficie(superficie);;
 						System.out.println("Suerficie modificada correctament");
 					}
 				}
@@ -486,15 +557,61 @@ public class UsaLlistes {
 	
 	// 13. Mostrar la quantitat de CO2 que permet absorbir cada rodal duna plantacio en lany actual
 	// (indicat a lentrar al programa). Indicarem el nom de la plantacio per teclat
-	public static void opcio13() {
-		
+	public static void opcio13(LlistaPlantes llistaPlantes, LlistaPlantacions llistaPlantacio,LlistaTerrenys llistaTerrenys, int any) {
+		String nom, nomPlanta;
+		Plantacions plantacions=null;
+		LlistaRodals llistaRodals=null;
+		int sumaTotalAbsorcio=0;
+		System.out.println("Indica el nom de la plantaciÃ³:");
+		nom = teclat.nextLine();
+		for (int i=0; i<llistaPlantacio.getNumElem();i++) {
+			if (llistaPlantacio.getLlista()[i].getNomPartida().equalsIgnoreCase(nom)) {
+				plantacions=llistaPlantacio.getLlista()[i];
+				llistaRodals=plantacions.getRodals();
+				System.out.println("Planta trobada!!!"+llistaPlantacio.getLlista()[i].getNomPartida());
+			}
+		}
+		if (plantacions == null) {
+			System.out.println("No existeix aquesta plantacio.");
+			return;
+		}
+		for (int i=0;i<llistaRodals.getNumElem();i++) {
+			for (int j=0; j<llistaTerrenys.getNumElem();j++) {
+				if (llistaRodals.getRodal(i).getTipusTerreny().equalsIgnoreCase(llistaTerrenys.getPos(j).getNomTerreny())) {
+					for (int x=0; x<llistaTerrenys.getPos(j).getPlantes().length;x++) {
+						nomPlanta=llistaTerrenys.getPos(j).getPlantes()[x];
+						sumaTotalAbsorcio=sumaTotalAbsorcio + (llistaTerrenys.getPos(j).getNumPlantes()[x] * opcio7(llistaPlantes, nomPlanta, any-plantacions.getAnyPlantacio()));
+					}
+				}
+			}
+		}
+		System.out.println("La quantitat de CO2 que permet absorbir en aquesta plantaciÃ³ Ã©s de "+sumaTotalAbsorcio);
 	}
 	
 	// 14. Mostrar la quantitat de CO2 que permet absorbir el conjunt dunitats plantades duna especie
 	// (entre totes les plantacions que tenim guardades) en lany actual. Indicarem el nom de
 	// lespecie per teclat.
-	public static void opcio14() {
-		
+	public static void opcio14(LlistaPlantes llistaPlantes, LlistaPlantacions llistaPlantacions, LlistaTerrenys llistaTerrenys, int any) {
+		String especie=null;
+		int sumaTotalAbsorcio=0;
+		System.out.println("Introdueix el nom de l'especie:");
+		especie = teclat.nextLine();
+		LlistaRodals llistaRodals=null;
+		for (int i=0; i<llistaPlantacions.getNumElem();i++) {	//NOS DA PLANTACIONS
+			for (int j=0; j<llistaPlantacions.getLlista()[i].getRodals().getNumElem();j++) {	//NOS DA LISTA RODALES
+				llistaRodals=llistaPlantacions.getLlista()[i].getRodals();		//
+				for (int k=0;k<llistaTerrenys.getNumElem();k++) {				//NOS DA TERRENYS
+					if (llistaRodals.getRodal(j).getTipusTerreny().equalsIgnoreCase(llistaTerrenys.getPos(k).getNomTerreny())) {					
+						for (int x=0;x<llistaTerrenys.getPos(k).getNumPlantes().length;x++) {
+							if (especie.equalsIgnoreCase(llistaTerrenys.getPos(k).getPlantes()[x])) {
+								sumaTotalAbsorcio+=(llistaTerrenys.getPos(k).getNumPlantes()[x] * opcio7(llistaPlantes, especie, any - llistaPlantacions.getLlista()[i].getAnyPlantacio()));
+							}
+						}
+					}
+				}
+			}
+		}
+		System.out.println("La quantitat de CO2 absorbeix aquesta especie en les plantacions es de:"+sumaTotalAbsorcio);
 	}
 	
 	// 15. Sortir. Permetre sortir guardant la informacio de les classes als fitxers o no.

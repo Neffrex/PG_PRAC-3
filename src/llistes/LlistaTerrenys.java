@@ -1,24 +1,29 @@
-/** 
- * Classe llista terrenys
- * 
- * @author Joel lacambra Chen
- * @version 1.0
- * 
- */
 package llistes;
 
 import plantacions.Terrenys;
 
+/**
+ * 
+ * @author Joel Lacambra
+ *
+ */
 public class LlistaTerrenys  {
 	
 	private Terrenys[] llista;
 	private int numElem;
 	
+	/**
+	 * Constructor
+	 */
 	public LlistaTerrenys() {
 		llista = new Terrenys[20];
 		numElem = 0;
 	}
 	
+	/**
+	 * Afegir un terreny
+	 * @param terreny
+	 */
 	public void afegir (Terrenys terreny) {
 		if (numElem < llista.length) {
 			llista[numElem] = terreny;
@@ -26,10 +31,19 @@ public class LlistaTerrenys  {
 		}
 	}
 	
+	/**
+	 * Getter
+	 * @param i
+	 * @return - terreny especific
+	 */
 	public Terrenys getPos (int i) {
 		return llista[i];
 	}
 	
+	/**
+	 * Getter
+	 * @return - num de elements
+	 */
 	public int getNumElem() {
 		return numElem;
 	}

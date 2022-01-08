@@ -1,8 +1,11 @@
 package llistes;
 
-import plantacions.Plantes;
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
+import javax.swing.JFileChooser;
+
+import plantacions.Plantes;
 
 /**
  * Classe que implementa la interficie TADLlistaPlantes que especifica la implementació d'una llista de la classe Plantes
@@ -79,15 +82,48 @@ public class LlistaPlantes implements TADLlistaPlantes{
 		}
 		return pos;
 	}
-
-	@Override
+	
 	public Plantes getPlanta(String nomCientific){
-		for (Plantes planta : llistaPlantes){
-			if (planta.getNomCientific().equals(nomCientific)){
-				return planta;
+		for (int i = 0; i < nElem; i++){
+			if (llistaPlantes[i].getNomCientific().equals(nomCientific)){
+				return llistaPlantes[i];
 			}
 		}
 		return null;
+	}
+	
+	public boolean guardarEnFitxer() throws FileNotFoundException {
+		File directori = escogerDirectorio();
+		if (directori == null) return false;
+		
+		File archiu = new File(directori.getAbsolutePath()+"\\LlistaPlantes.csv");
+		try {
+			PrintWriter pw = new PrintWriter(archiu);
+			pw.println(formatToString());
+			pw.close();
+			return true;
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
+		return false;
+	}
+	
+	public static File escogerDirectorio() {
+		JFileChooser seleccionador = new JFileChooser();
+		File archivo = null;
+		seleccionador.setCurrentDirectory(new File("."));
+		seleccionador.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
+		if (seleccionador.showOpenDialog(null) == JFileChooser.APPROVE_OPTION)
+			archivo = seleccionador.getSelectedFile();
+		return archivo;
+	}
+	
+	public String formatToString() {
+		StringBuilder sb = new StringBuilder();
+		for (int i = 0; i < nElem; i++) {
+			sb.append(llistaPlantes[i].formatToString()+'\n');
+		}
+		return sb.toString(); 
 	}
 
 	@Override

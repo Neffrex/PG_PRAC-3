@@ -1,13 +1,23 @@
-// Marc Fonseca
 package plantacions;
 
 import llistes.*;
 
+/**
+ * Classe que especifica la implementacio duna Plantacions
+ * @author Marc Fonseca Curto
+ *
+ */
 public class Plantacions {
 	private String nomPartida;
     private int anyPlantacio;
     private LlistaRodals rodals;
     
+    /**
+     * Contrusctor de Plantacions
+     * @param nomPartida 
+     * @param anyPlantacio
+     * @param rodals
+     */
     public Plantacions (String nomPartida, int anyPlantacio, LlistaRodals rodals){
         this.nomPartida = nomPartida;
         this.anyPlantacio = anyPlantacio;
@@ -17,35 +27,64 @@ public class Plantacions {
         }*/
     }
 
+    /**
+     * Getter
+     * @return - nom de partida
+     */
 	public String getNomPartida() {
 		return nomPartida;
 	}
 
+	/**
+	 * Setter
+	 * @param nomPartida
+	 */
 	public void setNomPartida(String nomPartida) {
 		this.nomPartida = nomPartida;
 	}
-
+	
+	/**
+	 * Getter
+	 * @return - any de plantacio
+	 */
 	public int getAnyPlantacio() {
 		return anyPlantacio;
 	}
 
+	/**
+	 * Setter
+	 * @param anyPlantacio
+	 */
 	public void setAnyPlantacio(int anyPlantacio) {
 		this.anyPlantacio = anyPlantacio;
 	}
 	
+	/**
+	 * Getter
+	 * @return - numero de rodals
+	 */ 
 	public LlistaRodals getRodals() {
 		return rodals;
 	}
 
+	/**
+	 * Setter
+	 * @param rodals
+	 */
 	public void setRodals(LlistaRodals rodals) {
 		this.rodals = rodals;
 	}
 
+	/**
+	 * Comprobar si exsteix un tipus de terreny
+	 * @param terreny
+	 * @return - true o false
+	 */
 	public boolean hay_tipusTerreny (String terreny) {
 		boolean aux = false;
 		
 		for (int i = 0; i < rodals.getNumElem() && aux == false; i++) {
-			if (rodals.getLlistaRodals(i).getTipusTerreny().equals(terreny)) {
+			if (rodals.getRodal(i).getTipusTerreny().equals(terreny)) {
 				aux = true;
 			}
 		}

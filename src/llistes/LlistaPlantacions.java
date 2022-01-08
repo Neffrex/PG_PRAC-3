@@ -1,17 +1,28 @@
-// Marc Fonseca
 package llistes;
 
 import plantacions.*;
 
+/**
+ * 
+ * @author Marc Fonseca Curto
+ *
+ */
 public class LlistaPlantacions {
 	private Plantacions[] llista;
 	private int numElem;
 	
+	/**
+	 * Constructor de la llista de plantacions
+	 */
 	public LlistaPlantacions() {
 		llista = new Plantacions[100];
 		numElem = 0;
 	}
 	
+	/**
+	 * Afegir una plantacio
+	 * @param plantacions
+	 */
 	public void afegir (Plantacions plantacions) {
 		boolean trobat = false;
 		
@@ -26,18 +37,35 @@ public class LlistaPlantacions {
 		}
 	}
 
+	/**
+	 * Getter
+	 * @return - totes les plantacions
+	 */
 	public Plantacions[] getLlista() {
 		return llista;
 	}
 
+	/**
+	 * Getter
+	 * @return - nombre de elements
+	 */
 	public int getNumElem() {
 		return numElem;
 	}
 
+	/**
+	 * Setter
+	 * @param numElem
+	 */
 	public void setNumElem(int numElem) {
 		this.numElem = numElem;
 	}
 	
+	/**
+	 * Comrpobar si te un tipus de terreny
+	 * @param terreny
+	 * @return - llista 
+	 */
 	public LlistaPlantacions llistaAmbTipusTerreny (String terreny) {
 		LlistaPlantacions llistaAux = new LlistaPlantacions();
 		
@@ -50,8 +78,11 @@ public class LlistaPlantacions {
 		return llistaAux;
 	}
 	
-	// public double[] superficiesPerTerreny
-	
+	/**
+	 * Eliminar un nom de partida
+	 * @param nom
+	 * @return - true o false
+	 */
 	public boolean eliminar (String nom) {
 		boolean eliminat = false;
 		
