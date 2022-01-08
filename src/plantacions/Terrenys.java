@@ -8,8 +8,11 @@
 package plantacions;
 
 import java.util.Arrays;
+import java.io.*;
 
-public class Terrenys {
+public class Terrenys implements Serializable {
+	private static final long serialVersionUID = 1;
+	
 	private String nomTerreny;
 	private String[] plantes;
 	private int[] numPlantes;
@@ -39,11 +42,11 @@ public class Terrenys {
 		return plantes;
 	}
 	
-	public String getIEssimaPlanta(int i) {
+	public String getIessimaPlanta(int i) {
 		return plantes[i];
 	}
 	
-	public void setIEssimaPlanta(String planta, int i) {
+	public void setIessimaPlanta(String planta, int i) {
 		plantes[i] = planta;
 	}
 	
@@ -51,11 +54,11 @@ public class Terrenys {
 		return numPlantes;
 	}
 	
-	public int getIEssimaNumPlanta(int i) {
+	public int getIessimNumPlanta(int i) {
 		return numPlantes[i];
 	}
 	
-	public void setIEssimaNumPlanta(int numPlanta, int i) {
+	public void setIessimNumPlanta(int numPlanta, int i) {
 		numPlantes[i] = numPlanta;
 	}
 	

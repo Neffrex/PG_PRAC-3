@@ -1,6 +1,8 @@
 package llistes;
 
 import plantacions.Plantes;
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
 
 /**
  * Classe que implementa la interficie TADLlistaPlantes que especifica la implementació d'una llista de la classe Plantes
@@ -16,12 +18,11 @@ public class LlistaPlantes implements TADLlistaPlantes{
         llistaPlantes= new Plantes[100];
     }
     
-    public LlistaPlantes (int mida) {
-        this.nElem=0;
-        llistaPlantes= new Plantes[mida];
-    }
+    public Plantes[] getLlistaPlantes() {
+		return llistaPlantes;
+	}
     
-    public boolean afegirPlanta(Plantes planta) {
+	public boolean afegirPlanta(Plantes planta) {
     	if (nElem<llistaPlantes.length) {
     		llistaPlantes[nElem++]= planta;
     		return true;

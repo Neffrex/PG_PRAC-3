@@ -4,8 +4,8 @@
 package plantacions;
 
 public abstract class Plantes {
-	private String nomCientific;
-	private boolean tipus;
+	protected String nomCientific;
+	protected boolean tipus;
 	
 	public static final boolean ARBUSTICA=false, ARBOREA=true;
 	
@@ -13,6 +13,11 @@ public abstract class Plantes {
 		this.nomCientific=nomCientific;
 		this.tipus=tipus;
 	}
+	
+	public String formatToString() {
+		return null;
+	}
+	
 	public String getNomCientific() {
 		return this.nomCientific;
 	}

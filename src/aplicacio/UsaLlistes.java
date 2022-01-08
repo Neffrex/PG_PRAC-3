@@ -1,24 +1,18 @@
-// Marc: 3, 4, 5, 9, 10, 11
 package aplicacio;
 
-import java.io.File;
+
 import javax.swing.JFileChooser;
-
-import org.xml.sax.EntityResolver;
-
 import plantacions.*;
 import llistes.*;
-
-import java.io.FileNotFoundException;
 import java.util.Scanner;
-import llistes.*;
-import plantacions.*;
+import java.io.*;
+
 
 public class UsaLlistes {
 
 	static Scanner teclat=new Scanner(System.in);
 	
-	public static void main(String[] args) throws FileNotFoundException {
+	public static void main(String[] args) throws IOException {
 		int opcio;
 		int any;
 		
@@ -37,15 +31,18 @@ public class UsaLlistes {
 			switch (opcio) {
 			case 1:
 				System.out.println("Escull els fitxers per cada llista:");
-				System.out.println("PLANTACIONS");
+				System.out.println("Carregant la llista de Plantacions.");
 				llistaPlantacions = carregaLlistaPlantacions(escoger_archivo());
-				System.out.println("TERRENYS");
-				//llistaTerrenys = carregaLlistaTerrenys(escoger_archivo());
-				System.out.println("PLANTES");
-				//llistaPlantes = carregaLlistaPlantes(escoger_archivo()); 
+				System.out.println("Llista carregada!!!");
+				System.out.println("Carregant la llista de Terrenys.");
+				llistaTerrenys = carregaLlistaTerrenys(escoger_archivo());
+				System.out.println("Llista carregada!!!");
+				System.out.println("Carregant la llista de Plantes.");
+				llistaPlantes = carregaLlistaPlantes(escoger_archivo()); 
+				System.out.println("Llista carregada!!!");
 				break;
 			case 2:
-				//opcio2(llistaTerrenys);
+				opcio2(llistaTerrenys);
 				break;
 			case 3:
 				opcio3(llistaPlantacions);
@@ -54,16 +51,16 @@ public class UsaLlistes {
 				opcio4(llistaPlantacions);
 				break;
 			case 5:
-				opcio5(llistaPlantacions/*,llistaTerrenys*/);
+				opcio5(llistaPlantacions,llistaTerrenys);
 				break;
 			case 6:
-				opcio6();
+				opcio6(llistaPlantes);
 				break;
 			case 7: 
-				opcio7();
+				opcio7(llistaPlantes);
 				break;
 			case 8: 
-				opcio8();
+				opcio8(llistaPlantes);
 				break;
 			case 9: 
 				opcio9(llistaPlantacions);
@@ -99,8 +96,7 @@ public class UsaLlistes {
 	public static LlistaPlantacions carregaLlistaPlantacions(File aux) throws FileNotFoundException {
 		Scanner sc = new Scanner(aux);
 		String buffer;
-		int mida = count_lines(aux) + 1;
-		LlistaPlantacions llista = new LlistaPlantacions(mida);
+		LlistaPlantacions llista = new LlistaPlantacions();
 		while (sc.hasNextLine()) {
 			buffer = sc.nextLine();
 			String[] llistaParametres = buffer.split(";");			LlistaRodals llistaRodals = new LlistaRodals((llistaParametres.length -2)/2);
@@ -118,16 +114,17 @@ public class UsaLlistes {
 		return llista;
 	}
 	
-	public static LlistaPlantes carregaLlistaPlantes(File aux) throws FileNotFoundException{
+	public static LlistaPlantes carregaLlistaPlantes(File aux) throws FileNotFoundException {
 		Scanner sc = new Scanner(aux);
 		String buffer;
-		int mida = count_lines(aux), llistaAbsorcio[], llistaInterval[];
-		LlistaPlantes llista = new LlistaPlantes(mida);
-		llistaAbsorcio = new int[mida];
-		llistaInterval = new int[mida];
+		int llistaInterval[];
+		double llistaAbsorcio[];
+		LlistaPlantes llista = new LlistaPlantes();
 		while (sc.hasNextLine()) {
 			buffer = sc.nextLine();
 			String[] llistaParametres = buffer.split(";");
+			llistaAbsorcio = new double[100];
+			llistaInterval = new int[100];
 			if (llistaParametres[0].equalsIgnoreCase("arbre")) {
 				if (llistaParametres.length % 2 == 0) {
 					for (int i = 0; i < ((llistaParametres.length) - 2) / 2; i++) {
@@ -147,7 +144,53 @@ public class UsaLlistes {
 		sc.close();
 		return llista;
 	}
-	
+
+	public static LlistaTerrenys carregaLlistaTerrenys (File aux) throws IOException {
+		LlistaTerrenys llista = new LlistaTerrenys();
+		ObjectInputStream inputFile;
+		boolean llegit = false;
+		
+		try {
+			inputFile = new	 ObjectInputStream(new FileInputStream(aux));
+			
+			while (!llegit) {
+				llista.afegir((Terrenys) inputFile.readObject());
+			}
+						
+		}
+		catch (EOFException e) {
+			llegit = true;
+		}
+		catch (IOException e){
+			System.out.println("El arxiu de entrada introduit no existeix.");
+		}
+		catch (ClassNotFoundException e) {
+			System.out.println("La classe no ha estat trobada.");
+		}
+		
+		catch (ClassCastException e) {
+			System.out.println("El format de arxiu no es correcte.");
+		}
+		
+		return llista;
+	}		
+
+	public static void guardaLlistaTerrenys (LlistaTerrenys llista) {
+		ObjectOutputStream outputFile;
+
+		try {
+			outputFile = new ObjectOutputStream(new FileOutputStream("Terrenys.ser"));
+			
+			for (int i = 0; i < llista.getNumElem(); i++) {
+				outputFile.writeObject(llista.getPos(i));
+			}
+			outputFile.close();
+		}
+		catch (IOException e) {
+			System.out.println("Error arxiu de sortida");
+		}
+	}
+
 	public static File escoger_archivo() {
 		JFileChooser seleccionador = new JFileChooser();
 		File archivo = null;
@@ -156,13 +199,6 @@ public class UsaLlistes {
 		if (seleccionador.showOpenDialog(null) == JFileChooser.APPROVE_OPTION)
 			archivo = seleccionador.getSelectedFile();
 		return archivo;
-	}
-	
-	public static int count_lines(File file) throws FileNotFoundException {
-		Scanner sc = new Scanner(file);
-		int lines = (int) sc.findAll("[\n]").count();
-		sc.close();
-		return lines;
 	}
 	
 	public static void mostraMenu() {
@@ -185,17 +221,16 @@ public class UsaLlistes {
 		System.out.print("\n\t\t\tIndica opcio:\n");
 	}
 	
-	// 1. Carregar les dades dels fitxers
+	/* 1. Carregar les dades dels fitxers
 	public static void opcio1(LlistaPlantacions llistaPlantacions, LlistaTerrenys llistaTerrenys, LlistaPlantes llistaPlantes) throws FileNotFoundException{	
 		System.out.println("Escull els fitxers per cada llista:");
 		System.out.println("PLANTACIONS");
 		llistaPlantacions = carregaLlistaPlantacions(escoger_archivo());
 		System.out.println("TERRENYS");
-		//llistaTerrenys = carregaLlistaTerrenys(escoger_archivo());
+		llistaTerrenys = carregaLlistaTerrenys(escoger_archivo());
 		System.out.println("PLANTES");
-		//llistaPlantes = carregaLlistaPlantes(escoger_archivo()); 	
-		
-	}
+		llistaPlantes = carregaLlistaPlantes(escoger_archivo()); 	
+	}*/
 	
 	// 2. Llistar les dades de tots els tipus de terreny.
 	public static void opcio2(LlistaTerrenys llista) {
@@ -215,25 +250,92 @@ public class UsaLlistes {
 	}
 	
 	// 5. Donada una plantacio, mostrar quantes unitats de cada especie shi ha plantat
-	public static void opcio5(LlistaPlantacions llistaPlantacions/*, LlistaTerrenys llistaTerrenys*/) {
+	public static void opcio5(LlistaPlantacions llistaPlantacions, LlistaTerrenys llistaTerrenys) {
+		boolean trobat = false;
+		int i = 0;
+		
 		System.out.println("Quina plantacio vols?");
 		String nom = teclat.nextLine();
+		
+		for (; i < llistaPlantacions.getNumElem() && trobat == false; i++) {
+			if (llistaPlantacions.getLlista()[i].getNomPartida().equalsIgnoreCase(nom)) {
+				trobat = true;
+			}
+		}
+		
+		if (trobat == false) {
+			System.out.println("No existeix aquesta plantacio");
+		}
+		else {
+			System.out.println("No sabem calcular tot aixo, perdo :(.");
+		}
 		
 	}
 	
 	// 6. Llistar les dades de totes les especies.
-	public static void opcio6() {
-	
+	public static void opcio6(LlistaPlantes llista) {
+		System.out.println(llista.toString());
 	}
 	
 	// 7. Donada una especie i una edat, mostrar la quantitat de CO2 que permet absorbir
-	public static void opcio7() {
+	public static void opcio7(LlistaPlantes llista) {
+		System.out.println("Introdueix el nombre cientÃ­fic:");
+		String nomCientific = teclat.nextLine();
 		
+		System.out.println("Introdueix l'edat de la planta:");
+		int any = teclat.nextInt();
+		
+		if (llista.getPlanta(nomCientific)!=null) {
+			if (llista.getPlanta(nomCientific).getTipus()==false) {
+				Arbustos arbust = (Arbustos) llista.getPlanta(nomCientific);
+				System.out.println("Absorcio de l'arbust "+arbust.getNomCientific()+"Ã©s:"+arbust.getAbsorcio());
+			}
+			else {
+				Arbres arbre = (Arbres) llista.getPlanta(nomCientific);
+				System.out.println("Absorcio de l'arbre "+arbre.getNomCientific()+" es: "+arbre.getAbsorcio(any));
+			}
+		}
+		else {
+			System.out.println("No existeix cap planta amb aquest nom en la llista.");
+		}
 	}
 	
 	// 8. Afegir una nova especie de planta
-	public static void opcio8() {
+	public static void opcio8(LlistaPlantes llista) {
+		int tipusPlanta=-1;
 		
+		while (!((tipusPlanta==0) || (tipusPlanta==1))) {
+			System.out.println("Introdueix si la nova especie es Arbustica o Arborea (Introdueix 0 per Arbustica i 1 per Arborea :");
+			tipusPlanta=Integer.parseInt(teclat.nextLine());
+		}
+		
+		System.out.println("Introdueix el nom de la nova especie:");
+		String nom=teclat.nextLine();
+		
+		int edatMaxima;
+		if (tipusPlanta==0) {
+			int absorcio;
+			System.out.println("Introdueix l'absorcio de l'arbust:");
+			absorcio=Integer.parseInt(teclat.nextLine());
+			System.out.println("Introdeix l'edat maxima:");
+			edatMaxima=Integer.parseInt(teclat.nextLine());
+			llista.afegirPlanta(new Arbustos(nom, absorcio, edatMaxima));
+			System.out.println("Arbust afegit!");
+		}else {
+			int n_intervals, absorcio[], intervals[];
+			System.out.println("Quants intervals te aquest arbre?");
+			n_intervals=Integer.parseInt(teclat.nextLine());
+			absorcio = new int[n_intervals];
+			intervals = new int[n_intervals];
+			for (int i=0; i<n_intervals;i++) {
+				System.out.println("Introdueix l'absorcio "+i+": ");
+				absorcio[i]=Integer.parseInt(teclat.nextLine());
+				System.out.println("Introdueix l'interval "+i+": ");
+				intervals[i]=Integer.parseInt(teclat.nextLine());
+			}
+			//llista.afegirPlanta(new Arbres(nom, absorcio, intervals));
+			System.out.println("Arbre afegit!");
+		}
 	}
 	
 	// 9. Esborrar les dades duna plantacio
@@ -375,13 +477,13 @@ public class UsaLlistes {
 	}
 	
 	// 14. Mostrar la quantitat de CO2 que permet absorbir el conjunt dunitats plantades duna especie
-	// (entre totes les plantacions que tenim guardades) en lâ€™any actual. Indicarem el nom de
-	// lâ€™especie per teclat.
+	// (entre totes les plantacions que tenim guardades) en lany actual. Indicarem el nom de
+	// lespecie per teclat.
 	public static void opcio14() {
 		
 	}
 	
-	// 15. Sortir. Permetre sortir guardant la informaciÃ³ de les classes als fitxers o no.
+	// 15. Sortir. Permetre sortir guardant la informacio de les classes als fitxers o no.
 	public static void opcio15(LlistaPlantacions llistaPlantacions, LlistaTerrenys llistaTerrenys, LlistaPlantes llistaPlantes) {
 		String opcio;
 		do {
@@ -393,7 +495,9 @@ public class UsaLlistes {
 		}while (!(opcio.equalsIgnoreCase("Si") || opcio.equalsIgnoreCase("No")));
 		if (teclat.nextLine().equals("Si")){
 			System.out.println("Les dades es guardaran en els fitxers originals.");
-			//guardaLlistaTerrenys(llistaTerrenys);
+			guardaLlistaTerrenys(llistaTerrenys);
+			//guardaLlistaPlantacions(llistaPlantacions);
+			//guardaLlistaPlantes(llistaPlantes);
 		}
 		else{
 			System.out.println("Has sortit del programa.");

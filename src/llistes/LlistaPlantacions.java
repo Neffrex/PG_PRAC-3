@@ -12,11 +12,6 @@ public class LlistaPlantacions {
 		numElem = 0;
 	}
 	
-	public LlistaPlantacions(int num) {
-		llista = new Plantacions[num];
-		numElem = 0;
-	}
-	
 	public void afegir (Plantacions plantacions) {
 		boolean trobat = false;
 		
@@ -44,7 +39,7 @@ public class LlistaPlantacions {
 	}
 	
 	public LlistaPlantacions llistaAmbTipusTerreny (String terreny) {
-		LlistaPlantacions llistaAux = new LlistaPlantacions(numElem);
+		LlistaPlantacions llistaAux = new LlistaPlantacions();
 		
 		for (int i = 0; i < numElem; i++) {
 			if (llista[i].hay_tipusTerreny(terreny) ) {

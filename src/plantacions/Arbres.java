@@ -8,33 +8,101 @@ import java.util.Arrays;
 
 public class Arbres extends Plantes{
 	// TODO Canvi en el tipus de emmagatzematge de absorcio i rangEdats de forma que estiguin relacionades
-	private int[] absorcio, rangEdats;
+	private int[] intervalsAbsorcions;
+	private double[] absorcions;
 
-	public Arbres(String nomCientific, int absorcio[], int rangEdats[]) {
+	public Arbres(String nomCientific, int[] intervals, double[] absorcions) {
 		super(nomCientific, Plantes.ARBOREA);
-		this.absorcio=absorcio;
-		this.rangEdats=rangEdats;
+		setAbsorcions(intervals, absorcions);
 	}
 	
-	public int[] getAbsorcio() {
-		return absorcio;
+	/**
+	 * Retorna l'absorció de l'arbre en un any
+	 * @param any Any de l'arbre 
+	 * @return La absorció de l'arbre a l'<code>any</code> donat
+	 */
+	public double getAbsorcio(int any) {
+		return absorcions[getIndexIntervalInf(any)];
 	}
 
-	public void setAbsorcio(int[] absorcio) {
-		this.absorcio = absorcio;
+	/**
+	 * Canvía la absorció de l'interval al que pertanyi un any
+	 * @param absorcio Nova absorció de l'interval
+	 * @param any Any pertinent a l'interval a canviar
+	 */
+	public void setAbsorcio(double absorcio, int any) {
+		this.absorcions[getIndexIntervalInf(any)] = absorcio;
 	}
-
-	public int[] getRangEdats() {
-		return rangEdats;
+	
+	/**
+	 * Canvía totes les absorcions y intervals 
+	 * @param intervals Vector amb els intervals de cada absorció
+	 * @param absorcions Vector amb les absorcions
+	 * @implNote Es dona per suposat que els intervals són contigus, per tant el vector será del tipus {x_1, ..., x_n} 
+	 * on els intervals serán {x_1, x_2}, {x_2, x_3}, ... {x_n-1, x_n}, {x_n, infinit}.</br>
+	 * Si <code>intervals</code> no está ordenat es considerará un error y retornará false sense efectuar cap canvi.
+	 * @return <code>true</code> si s'ha efectuat el canvi amb èxit o <code>false</code> si ha hagut un error.
+	 */
+	public boolean setAbsorcions(int[] intervals, double[] absorcions) {
+		if (absorcions.length != intervals.length || !isOrdered(intervals, true)) return false;
+		
+		this.absorcions = absorcions;
+		this.intervalsAbsorcions = intervals;
+		
+		return true;
 	}
-
-	public void setRangEdats(int[] rangEdats) {
-		this.rangEdats = rangEdats;
+	
+	/**
+	 * Retorna la posició del limit inferior de l'interval al que pertany un any
+	 * @param any Any pertinent al interval a tractar
+	 * @return Posició del limit inferior del interval al que pertany <code>any</code>
+	 */
+	private int getIndexIntervalInf(int any) {
+		int pos = intervalsAbsorcions.length-1;
+		
+		for (int i = -1; i < intervalsAbsorcions.length-1; i++) {
+			if(intervalsAbsorcions[i+1] > any) {
+				pos = i;
+			}
+		}
+		
+		return pos;
 	}
-
+	
+	/**
+	 * Retorna si tots els elements d'un vector segueixen un ordre.
+	 * @param a Vector que conté els elements a determinar la ordenació
+	 * @param high <code>true</code> si l'ordre es de menor a major, <code>false</code> en cas contrari 
+	 * @return <code>true</code> si tots els elements estàn en ordre o <code>fals</code> si no ho estàn
+	 */
+	public static boolean isOrdered(int[] a, boolean high) {
+		if (high) {
+			for (int i = 1; i < a.length; i++) {
+				if (a[i-1] > a[i]) return false;
+			}
+		} else {
+			for (int i = 1; i < a.length; i++) {
+				if (a[i-1] < a[i]) return false;
+			}
+		}
+		
+		return true;
+	}
+	
+	@Override
+	public String formatToString() {
+		StringBuilder sb = new StringBuilder("Arbre;");
+		sb.append(nomCientific + ';');
+		for (int i = 0; i < intervalsAbsorcions.length; i++) {
+			sb.append(absorcions[i] + ';' + intervalsAbsorcions[i] + ';');
+		}
+		return sb.toString();
+		
+	}
+	
 	@Override
 	public String toString() {
-		return "Arbres [absorcio=" + Arrays.toString(absorcio) + ", rangEdats=" + Arrays.toString(rangEdats) + "]";
+		return "Arbres [absorcio=" + Arrays.toString(absorcions) + ", rangEdats=" + Arrays.toString(intervalsAbsorcions) + "]";
 	}
 	
 }
