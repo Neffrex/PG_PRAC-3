@@ -312,7 +312,7 @@ public class UsaLlistes {
 		if (llista.getPlanta(nomCientific)!=null) {
 			if (llista.getPlanta(nomCientific).getTipus()==false) {
 				Arbustos arbust = (Arbustos) llista.getPlanta(nomCientific);
-				System.out.println("Absorcio de l'arbust "+arbust.getNomCientific()+"ÃƒÂ©s:"+arbust.getAbsorcio(any));
+				System.out.println("Absorcio de l'arbust "+arbust.getNomCientific()+"es:"+arbust.getAbsorcio(any));
 			}
 			else {
 				Arbres arbre = (Arbres) llista.getPlanta(nomCientific);
