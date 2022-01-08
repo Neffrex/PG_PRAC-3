@@ -1,7 +1,7 @@
 // Marc Fonseca
 package plantacions;
 
-import llistes.LlistaRodals;
+import llistes.*;
 
 public class Plantacions {
 	private String nomPartida;
@@ -31,6 +31,26 @@ public class Plantacions {
 
 	public void setAnyPlantacio(int anyPlantacio) {
 		this.anyPlantacio = anyPlantacio;
+	}
+	
+	public LlistaRodals getRodals() {
+		return rodals;
+	}
+
+	public void setRodals(LlistaRodals rodals) {
+		this.rodals = rodals;
+	}
+
+	public boolean hay_tipusTerreny (String terreny) {
+		boolean aux = false;
+		
+		for (int i = 0; i < rodals.getNumElem() && aux == false; i++) {
+			if (rodals.getLlistaRodals(i).getTipusTerreny().equals(terreny)) {
+				aux = true;
+			}
+		}
+		
+		return aux;
 	}
 
 	@Override

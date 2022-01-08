@@ -3,7 +3,7 @@ package plantacions;
 
 public class Rodal {
 	private String tipusTerreny;
-    private float superficie;
+    private double superficie;
     
     public Rodal (String tipusTerreny, float superficie){
         this.tipusTerreny = tipusTerreny;
@@ -18,11 +18,11 @@ public class Rodal {
 		this.tipusTerreny = tipusTerreny;
 	}
 
-	public float getSuperficie() {
+	public double getSuperficie() {
 		return superficie;
 	}
 
-	public void setSuperficie(float superficie) {
+	public void setSuperficie(double superficie) {
 		this.superficie = superficie;
 	}
 

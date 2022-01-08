@@ -1,7 +1,7 @@
 // Marc Fonseca
 package llistes;
 
-import plantacions.Rodal;
+import plantacions.*;
 
 public class LlistaRodals {
 	private Rodal[] llistaRodals;
@@ -17,6 +17,10 @@ public class LlistaRodals {
 			llistaRodals[numElem] = rodal;
 			numElem++;
 		}	
+	}
+
+	public Rodal getLlistaRodals(int i) {
+		return llistaRodals[i];
 	}
 
 	public int getNumElem() {
