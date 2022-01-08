@@ -81,7 +81,7 @@ public class UsaLlistes {
 				opcio14();
 				break;
 			case 15: 
-				//opcio15(llistaPlantacions, llistaTerrenys, llistaPlantes);
+				opcio15(llistaPlantacions, llistaTerrenys, llistaPlantes);
 				break;
 			default:
 				System.out.println("Aquesta no es una opcio disponible");
@@ -102,7 +102,8 @@ public class UsaLlistes {
 			String[] llistaParametres = buffer.split(";");			LlistaRodals llistaRodals = new LlistaRodals((llistaParametres.length -2)/2);
 			if (llistaParametres.length % 2 == 0) {
 				for (int i=0; i<(llistaParametres.length-2); i+=2) { 
-					llistaRodals.afegir(new Rodal(llistaParametres[i+3], Float.parseFloat(llistaParametres[i+2])));
+					
+					llistaRodals.afegir(new Rodal(llistaParametres[i+3], Float.parseFloat(llistaParametres[i+2].replace(',' , '.'))));
 				}
 				llista.afegir(new Plantacions(llistaParametres[0], Integer.parseInt(llistaParametres[1]), llistaRodals));	
 			}else {
@@ -175,6 +176,28 @@ public class UsaLlistes {
 		return llista;
 	}		
 
+	public static void guardaLlistaPlantacions(LlistaPlantacions llista){
+		try {																										
+			File fit = new File("Plantacions23.csv");			
+			if (!fit.exists()) {						
+				fit.createNewFile();
+			}
+			PrintWriter pw = new PrintWriter(fit);		
+		
+			for (int i=0; i<llista.getNumElem(); i++) {	
+				pw.printf("%s;%d", llista.getLlista()[i].getNomPartida(), llista.getLlista()[i].getAnyPlantacio());
+				for (int j = 0; j < llista.getLlista()[i].getRodals().getNumElem(); j++) {
+					pw.printf(";%.2f;%s", llista.getLlista()[i].getRodals().getLlistaRodals(j).getSuperficie(), llista.getLlista()[i].getRodals().getLlistaRodals(j).getTipusTerreny());
+				}
+				pw.printf("%n");
+			}
+			pw.close();
+		}
+		catch (IOException e) {
+			e.getStackTrace();
+		}
+	}
+
 	public static void guardaLlistaTerrenys (LlistaTerrenys llista) {
 		ObjectOutputStream outputFile;
 
@@ -190,6 +213,8 @@ public class UsaLlistes {
 			System.out.println("Error arxiu de sortida");
 		}
 	}
+	
+	
 
 	public static File escoger_archivo() {
 		JFileChooser seleccionador = new JFileChooser();
@@ -220,17 +245,6 @@ public class UsaLlistes {
 		System.out.println("\t15. Sortir");
 		System.out.print("\n\t\t\tIndica opcio:\n");
 	}
-	
-	/* 1. Carregar les dades dels fitxers
-	public static void opcio1(LlistaPlantacions llistaPlantacions, LlistaTerrenys llistaTerrenys, LlistaPlantes llistaPlantes) throws FileNotFoundException{	
-		System.out.println("Escull els fitxers per cada llista:");
-		System.out.println("PLANTACIONS");
-		llistaPlantacions = carregaLlistaPlantacions(escoger_archivo());
-		System.out.println("TERRENYS");
-		llistaTerrenys = carregaLlistaTerrenys(escoger_archivo());
-		System.out.println("PLANTES");
-		llistaPlantes = carregaLlistaPlantes(escoger_archivo()); 	
-	}*/
 	
 	// 2. Llistar les dades de tots els tipus de terreny.
 	public static void opcio2(LlistaTerrenys llista) {
@@ -487,16 +501,16 @@ public class UsaLlistes {
 	public static void opcio15(LlistaPlantacions llistaPlantacions, LlistaTerrenys llistaTerrenys, LlistaPlantes llistaPlantes) {
 		String opcio;
 		do {
-			System.out.println("Vols modificar el tipus de terreny? (0-Si  1-No)");
+			System.out.println("Vols guardar els fitxers modificats? (0-Si  1-No)");
 			opcio = teclat.nextLine();
 			if (!(opcio.equalsIgnoreCase("Si") || opcio.equalsIgnoreCase("No"))) {
 				System.out.println("No es una opcio valida");
 			}
 		}while (!(opcio.equalsIgnoreCase("Si") || opcio.equalsIgnoreCase("No")));
-		if (teclat.nextLine().equals("Si")){
+		if (opcio.equals("Si")){
 			System.out.println("Les dades es guardaran en els fitxers originals.");
+			guardaLlistaPlantacions(llistaPlantacions);
 			guardaLlistaTerrenys(llistaTerrenys);
-			//guardaLlistaPlantacions(llistaPlantacions);
 			//guardaLlistaPlantes(llistaPlantes);
 		}
 		else{

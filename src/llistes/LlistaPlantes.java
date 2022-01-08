@@ -27,6 +27,14 @@ public class LlistaPlantes implements TADLlistaPlantes{
     		llistaPlantes[nElem++]= planta;
     		return true;
     	}
+    	if (nElem >= llistaPlantes.length) {
+			Plantes[] aux = new Plantes[llistaPlantes.length * 2];
+			for (int i = 0; i < nElem; i++) {
+				aux[i] = llistaPlantes[i];
+			}
+			llistaPlantes = aux;
+			return true;
+		}
     	return false;
     }
 	
