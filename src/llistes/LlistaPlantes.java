@@ -97,6 +97,17 @@ public class LlistaPlantes implements TADLlistaPlantes{
 		return false;
 	}
 	
+	public static LlistaPlantes carregarDeFitxer(File fitxer){
+		
+		try {
+				
+		} catch (Exception e) {
+			
+		}
+		
+		return null;
+	}
+
 	public String formatToString() {
 		StringBuilder sb = new StringBuilder();
 		for (int i = 0; i < nElem; i++) {

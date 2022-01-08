@@ -19,7 +19,7 @@ public abstract class Plantes {
 	public String formatToString() {
 		return null;
 	}
-	
+
 	public String getNomCientific() {
 		return this.nomCientific;
 	}

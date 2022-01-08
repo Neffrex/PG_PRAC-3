@@ -36,7 +36,7 @@ public class InterficieGrafica extends JFrame {
 		
 		//Agregar los botones al panel_principal
 		for (JButton button : buttons) {
-			button = new JButton("NomFinca\nAny de plantació\nSuperfície Total\nTotal d’arbres\nTotal d’arbustives");
+			button = new JButton("NomFinca\nAny de plantacio\nSuperficie Total\nTotal d\'arbres\nTotal d\'arbustives");
 			panelPrincipal.add(button);
 		}
 		
