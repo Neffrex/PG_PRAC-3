@@ -366,7 +366,7 @@ public class UsaLlistes {
 	
 	// 7. Donada una especie i una edat, mostrar la quantitat de CO2 que permet absorbir
 	public static void opcio7() {
-		System.out.println("Introdueix el nom científic:");
+		System.out.println("Introdueix el nom cientï¿½fic:");
 		String nomCientific = teclat.nextLine();
 		
 		try {
@@ -481,7 +481,7 @@ public class UsaLlistes {
 		String plantacio = teclat.nextLine();
 		 
 		for (; i < llistaPlantacions.getNumElem() && trobat == false; i++) {
-			if (llistaPlantacions.getLlista()[i].getNomPartida() == plantacio) {
+			if (llistaPlantacions.getLlista()[i].getNomPartida().equals(plantacio)) {
 				trobat = true;
 			}
 		}
@@ -493,7 +493,7 @@ public class UsaLlistes {
 			System.out.println("Quin rodal vols modificar? (numero)");
 			int j = Integer.parseInt(teclat.nextLine());
 			
-			if (llistaPlantacions.getLlista()[i].getRodals().getNumElem()-1 > j) {
+			if (llistaPlantacions.getLlista()[--i].getRodals().getNumElem()-1 > j) {
 				System.out.println("Aquest rodal no existeix");
 			}
 			else {
@@ -571,11 +571,11 @@ public class UsaLlistes {
 	// 13. Mostrar la quantitat de CO2 que permet absorbir cada rodal duna plantacio en lany actual
 	// (indicat a lentrar al programa). Indicarem el nom de la plantacio per teclat
 	public static void opcio13() {
-		
+		System.out.println("Introdueix el nom de la plantaciÃ³:");
 		Plantacions plantacio = llistaPlantacions.get(teclat.nextLine());
 		if (plantacio != null) {
 			for (int i = 0; i < plantacio.getRodals().getNumElem(); i++) {
-				System.out.printf("Absorció rodal %d = %d\n", i, plantacio.getRodals().getRodal(i).getAbsorcioTotal(plantacio.getAnyPlantacio()-any)); 
+				System.out.printf("Absorciï¿½ rodal %d = %f\n", i, plantacio.getRodals().getRodal(i).getAbsorcioTotal(plantacio.getAnyPlantacio()-any)); 
 			}
 		}
 		
@@ -627,7 +627,7 @@ public class UsaLlistes {
 			absorcioTotal += llistaPlantacions.getAbsorcio(i, nomEspecie, any);
 		}
 		
-		System.out.printf("Absorció que permet absorbir la especie %s = %f\n", nomEspecie, absorcioTotal);
+		System.out.printf("Absorciï¿½ que permet absorbir la especie %s = %f\n", nomEspecie, absorcioTotal);
 	}
 	
 	/*	CODI ANTIC AMB LES CLASSES RODALS I TERRENYS DESACTUALITZAT
