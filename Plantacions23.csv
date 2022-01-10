@@ -1,0 +1,2132 @@
+Kettering;1969;10,35;nomTerreny = Arenoso, plantes = [Arbre:
+Edad[0, 386) -> 294,00 CO2
+[386, 14) -> 0,00 CO2
+[14, 521) -> 386,00 CO2
+[521, 26) -> 14,00 CO2
+[26, inf) -> 521,00 CO2, Arbre:
+Edad[4, 387) -> 222,00 CO2
+[387, 19) -> 4,00 CO2
+[19, 517) -> 387,00 CO2
+[517, 35) -> 19,00 CO2
+[35, inf) -> 517,00 CO2, Arbre:
+Edad[3, 467) -> 263,00 CO2
+[467, 11) -> 3,00 CO2
+[11, 528) -> 467,00 CO2
+[528, 36) -> 11,00 CO2
+[36, inf) -> 528,00 CO2, Arbre:
+Edad[1, 409) -> 169,00 CO2
+[409, 12) -> 1,00 CO2
+[12, 530) -> 409,00 CO2
+[530, 30) -> 12,00 CO2
+[30, inf) -> 530,00 CO2, Arbre:
+Edad[5, 390) -> 262,00 CO2
+[390, 10) -> 5,00 CO2
+[10, 531) -> 390,00 CO2
+[531, 26) -> 10,00 CO2
+[26, inf) -> 531,00 CO2]
+				numPlantes = [181, 134, 170, 155, 151];5,27;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162];14,07;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177];7,16;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175];10,22;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175];5,74;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189];13,48;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162];4,13;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122];10,00;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162]
+Cumberland;1991;5,69;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175];8,50;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177];6,03;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122];4,13;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189];11,05;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189];14,06;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162];15,28;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177];10,00;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175];15,13;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177]
+West Orange;2005;16,17;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175];10,61;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177];6,50;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162];9,73;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189];15,34;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177];11,46;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162]
+Modesto;1984;16,85;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189];15,31;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122];6,19;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177];8,24;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162];15,17;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162];16,15;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177]
+Youngstown;1988;6,62;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162];16,15;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175];1,48;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122];8,10;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189];5,92;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175];7,41;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162];5,92;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189]
+Beatrice;2009;3,48;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177];11,75;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189];16,17;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175];13,48;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162];10,44;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189];0,30;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175];10,44;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162]
+Powell;1999;1,48;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122];18,52;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162];16,85;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189];15,28;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175];12,38;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162];6,50;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189]
+Alamosa;1971;9,92;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162];19,26;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162];5,21;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177];17,19;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189];7,41;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189]
+New Brunswick;1960;5,77;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177];9,25;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177];5,10;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122];11,12;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162];0,30;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162]
+Oregon City;1954;5,21;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122];11,35;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122];1,92;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175];9,43;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189];6,50;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189]
+New Castle;1992;14,07;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189];5,74;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122];6,48;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175];10,00;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162];6,42;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162];1,60;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177];9,73;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122];15,13;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189];15,70;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122]
+Marysville;1990;6,03;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162];14,06;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175];9,71;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189];15,13;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177];11,52;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177];9,28;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162];8,24;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175];15,70;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162];18,11;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175]
+Sanford;2001;14,35;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189];4,13;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122];2,17;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177];7,44;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162];15,12;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162];15,13;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189];6,42;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122];7,41;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189]
+Cincinnati;1974;2,89;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162];10,00;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175];17,08;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122];7,41;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177];19,26;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177];15,70;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162];11,52;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175];0,30;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162]
+East Orange;1983;2,17;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177];15,13;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189];14,26;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175];0,30;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162];9,25;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162];18,11;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177];15,29;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189]
+Pauls Valley;1999;5,10;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175];10,49;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175];12,38;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189];10,59;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162];11,46;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162]
+Scarborough;1974;1,92;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189];6,54;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189];16,66;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162];5,92;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177]
+Fort Scott;2022;12,38;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162];9,56;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162];6,53;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177];10,44;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122]
+Keokuk;1979;16,66;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177];17,19;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122];5,27;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122];12,38;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175]
+North Adams;1961;6,53;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122];11,12;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175];8,50;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175];15,34;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189]
+Barre;2010;5,27;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175];9,43;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189];5,74;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189]
+Telluride;1984;8,50;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189];10,59;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162];14,06;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162]
+Norton;1985;5,74;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162];5,92;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177];1,60;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177]
+Norwalk;1985;14,06;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177];10,44;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122];9,28;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122]
+Corydon;2001;1,60;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122];12,38;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175];7,16;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175]
+Oneonta;1959;9,28;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175];15,34;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189];4,13;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177]
+Bloomington;1962;7,16;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189];15,17;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162];15,34;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122]
+Yankton;1996;4,13;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162];6,51;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177];15,17;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175]
+Nampa;2000;10,00;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177];5,27;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162];6,51;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189]
+Summersville;1974;15,13;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122];8,50;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177];5,27;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162]
+Ketchikan;2019;18,96;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175];15,28;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175];10,98;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162];6,42;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189];5,74;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189]
+Cicero;1987;17,46;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189];9,73;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189];13,75;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122];11,52;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189];14,06;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162]
+Medford;1974;10,98;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162];8,24;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162];0,15;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175];15,29;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162];1,60;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189]
+Manassas;1975;13,75;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177];15,48;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177];12,30;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189];7,09;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177];9,28;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162]
+Chico;2000;0,15;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122];10,22;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122];0,97;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162];10,04;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122];7,16;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177]
+Bay City;2021;12,30;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175];11,05;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175];4,16;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177];15,12;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175];4,13;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122]
+Kittery;1953;0,97;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189];6,42;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189];17,90;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122];19,26;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177];10,00;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175]
+Grand Rapids;2022;4,16;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162];11,52;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162];10,92;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175];9,25;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122];15,13;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177]
+Worland;2014;6,50;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162];17,48;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175];11,53;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122];15,48;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177];6,51;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177];11,75;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122]
+Saint Augustine;1962;6,19;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177];8,10;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177];18,96;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175];10,22;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122];5,27;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122];18,52;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122]
+Wheeling;1966;11,53;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122];13,48;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122];17,46;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189];11,05;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175];8,50;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175];10,61;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189]
+Kanab;2008;19,26;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177]
+Memphis;2021;9,25;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122]
+Middletown;2000;11,35;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175]
+Asheville;1985;10,49;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189]
+Pittsburg;2018;6,54;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162]
+Casper;2007;9,56;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177]
+Palm Beach;2013;17,19;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122]
+Randolph;1956;11,12;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175]
+Kenosha;1970;9,43;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189]
+Babylon;1995;10,59;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162]
+Harpers Ferry;1973;5,92;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177]
+Arcadia;2006;10,44;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122]
+Monroe;1986;2,67;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122];0,30;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162];18,84;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189];10,61;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177];11,12;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177];18,11;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177];11,35;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162]
+Santa Clarita;1985;14,14;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175];6,50;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177];6,62;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162];15,31;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122];9,43;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122];9,21;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175];10,49;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122]
+Fort Smith;1982;17,08;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122];15,70;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162];6,92;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189];6,50;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177];11,35;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177];9,21;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122];7,09;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162]
+Goliad;1967;14,26;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175];18,11;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177];13,42;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162];11,46;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122];10,49;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122];7,44;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122];10,04;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177]
+New Britain;1983;0,30;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175];4,13;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122]
+Seymour;2006;6,50;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189];10,00;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175]
+Gallipolis;1980;11,46;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162];15,13;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189]
+Kent;1990;16,15;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177];15,70;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162]
+Everett;2007;11,75;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122];18,11;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177]
+Saranac Lake;1994;18,52;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175];9,21;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122]
+Dalton;2004;10,61;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189];7,44;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175]
+Oak Harbor;1953;15,31;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162];7,41;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177]
+Ilion;1960;18,84;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189];11,46;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122];3,48;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177];17,48;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175];10,59;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122];7,44;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189];10,59;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175]
+Aspen;1995;17,90;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177];15,29;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177];7,99;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189];11,35;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175];15,70;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122]
+Bastrop;1983;10,92;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122];7,09;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122];7,43;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162];10,49;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177];18,11;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175]
+York;1995;7,99;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175];10,04;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175];9,92;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177];6,54;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122];9,21;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122]
+Greenwich;1955;7,43;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189];15,12;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189];5,77;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162];9,56;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175];7,44;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175]
+Lansing;2009;17,48;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177];0,30;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122]
+Conway;2017;8,10;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122];6,50;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175]
+Cuyahoga Falls;1958;13,48;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175];11,46;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189]
+Mentor;2008;15,28;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189];16,15;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162]
+Wichita;1967;9,73;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162]
+Biloxi;1979;8,24;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177]
+Kaskaskia;1974;15,48;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122]
+Chapel Hill;1988;10,22;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175]
+Glen Ellyn;1978;6,92;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189];9,21;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122];15,09;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177];16,15;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175];6,54;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175];10,00;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175];15,12;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122]
+Green River;1959;13,42;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162];7,44;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175];2,67;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122];11,75;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189];9,56;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189];15,13;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189];19,26;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175]
+Amana Colonies;1967;15,09;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177];7,41;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189];14,14;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175];18,52;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162];17,19;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162];15,70;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162];9,25;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189]
+Queens;1990;15,70;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175];5,74;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122]
+Riverside;1989;18,11;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189];14,06;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175]
+Nebraska City;1986;9,21;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162];1,60;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189]
+Halifax;1959;7,44;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177];9,28;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162]
+Alexandria;1978;7,41;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122];7,16;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177]
+Visalia;2002;11,05;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189]
+Harrodsburg;1990;6,42;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162]
+El Monte;2001;11,52;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177]
+Lead;1970;15,29;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122]
+New York;1987;6,48;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177];1,60;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189];8,18;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162];15,70;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122];15,29;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122];7,16;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177];15,48;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189];18,11;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177];9,21;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189]
+Massena;1984;9,71;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122];9,28;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162];14,35;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177];18,11;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175];7,09;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175];4,13;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122];10,22;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162];9,21;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122]
+Wood River;1997;8,18;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175];7,16;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177];2,89;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175];9,21;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189];10,04;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189];10,00;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175];11,05;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177];7,44;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175];9,21;nomTerreny = Mixtoarenoso, plantes = [Arbustos [absorcio=434.0, edatMaxima=6], Arbustos [absorcio=161.0, edatMaxima=13], Arbustos [absorcio=119.0, edatMaxima=7], Arbustos [absorcio=384.0, edatMaxima=8], Arbustos [absorcio=368.0, edatMaxima=8]]
+				numPlantes = [117, 173, 160, 106, 122];15,12;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162]
+Hallandale Beach;1965;7,09;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175]
+Skagway;1954;10,04;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189]
+East Liverpool;2013;15,12;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162]
+Canyon;2021;12,38;nomTerreny = Calizo, plantes = [Arbustos [absorcio=182.0, edatMaxima=7], Arbustos [absorcio=266.0, edatMaxima=12], Arbustos [absorcio=62.0, edatMaxima=11], Arbustos [absorcio=353.0, edatMaxima=10], Arbustos [absorcio=395.0, edatMaxima=11]]
+				numPlantes = [178, 151, 141, 175, 175]
+Norwich;1960;15,34;nomTerreny = Negra, plantes = [Arbre:
+Edad[5, 350) -> 298,00 CO2
+[350, 18) -> 5,00 CO2
+[18, 550) -> 350,00 CO2
+[550, 37) -> 18,00 CO2
+[37, inf) -> 550,00 CO2, Arbre:
+Edad[2, 334) -> 74,00 CO2
+[334, 15) -> 2,00 CO2
+[15, 538) -> 334,00 CO2
+[538, 34) -> 15,00 CO2
+[34, inf) -> 538,00 CO2, Arbre:
+Edad[0, 331) -> 61,00 CO2
+[331, 18) -> 0,00 CO2
+[18, 519) -> 331,00 CO2
+[519, inf) -> 18,00 CO2, Arbre:
+Edad[0, 325) -> 273,00 CO2
+[325, 15) -> 0,00 CO2
+[15, 514) -> 325,00 CO2
+[514, inf) -> 15,00 CO2, Arbre:
+Edad[5, 318) -> 223,00 CO2
+[318, 10) -> 5,00 CO2
+[10, 510) -> 318,00 CO2
+[510, inf) -> 10,00 CO2]
+				numPlantes = [175, 173, 139, 199, 189]
+Pullman;2004;15,17;nomTerreny = Arcilla, plantes = [Arbustos [absorcio=221.0, edatMaxima=13], Arbustos [absorcio=379.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=7], Arbustos [absorcio=237.0, edatMaxima=12], Arbustos [absorcio=409.0, edatMaxima=7]]
+				numPlantes = [152, 179, 180, 138, 162]
+New Albany;2021;6,51;nomTerreny = Pedregosa, plantes = [Arbustos [absorcio=402.0, edatMaxima=10], Arbustos [absorcio=314.0, edatMaxima=13], Arbustos [absorcio=30.0, edatMaxima=6], Arbustos [absorcio=361.0, edatMaxima=11], Arbustos [absorcio=370.0, edatMaxima=5]]
+				numPlantes = [114, 164, 122, 154, 177]
