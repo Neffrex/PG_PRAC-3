@@ -62,4 +62,34 @@ public class LlistaTerrenys  {
 		return aux;
 	}
 	
+	/**
+	 * Retorna el terreny amb un nom donat 
+	 * @param nomTerreny
+	 * @return Terreny amb el nom nomTerreny
+	 * @author Jose Luis
+	 */
+	public Terrenys get(String nomTerreny) {
+		for (int i = 0; i < numElem; i++) {
+			if (llista[i].getNomTerreny().equalsIgnoreCase(nomTerreny)) {
+				return llista[i];
+			}
+		}
+		return null;
+	}
+	
+	/**
+	 * Retorna el la posició en la llista del terreny amb un nom donat 
+	 * @param nomTerreny
+	 * @return Index del terreny o -1 si no es troba a la llista
+	 * @author Jose Luis
+	 */
+	public int getIndex(String nomTerreny) {
+		for (int i = 0; i < numElem; i++) {
+			if (llista[i].getNomTerreny().equalsIgnoreCase(nomTerreny)) {
+				return i;
+			}
+		}
+		return -1;
+	}
+	
 }

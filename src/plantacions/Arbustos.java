@@ -49,4 +49,9 @@ public class Arbustos extends Plantes{
 		return absorcio;
 	}
 	
+	@Override
+	public int getMaxEdad() {
+		return edatMaxima;
+	}
+	
 }

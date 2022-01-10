@@ -21,6 +21,11 @@ public class LlistaPlantes implements TADLlistaPlantes{
         llistaPlantes= new Plantes[100];
     }
     
+    public LlistaPlantes (int mida) {
+        this.nElem=0;
+        llistaPlantes= new Plantes[mida];
+    }
+    
     public Plantes[] getLlistaPlantes() {
 		return llistaPlantes;
 	}
@@ -85,14 +90,22 @@ public class LlistaPlantes implements TADLlistaPlantes{
 	
 	public Plantes getPlanta(String nomCientific){
 		for (int i = 0; i < nElem; i++){
-			if (llistaPlantes[i].getNomCientific().equals(nomCientific)){
+			if (llistaPlantes[i].getNomCientific().equalsIgnoreCase(nomCientific)){
 				return llistaPlantes[i];
 			}
 		}
 		return null;
 	}
 	
-	public boolean guardarEnFitxer() throws FileNotFoundException {
+	public int getMaxEdad() {
+		int maxEdad = 0;
+		for (int i = 0; i < nElem; i++) {
+			maxEdad = Math.max(maxEdad, llistaPlantes[i].getMaxEdad());
+		}
+		return maxEdad;
+	}
+	
+	public boolean guardarEnFitxer() {
 		File directori = escogerDirectorio();
 		if (directori == null) return false;
 		

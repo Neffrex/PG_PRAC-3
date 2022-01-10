@@ -143,7 +143,7 @@ public class LlistaPlantacions {
 	 * @author Jose Luis
 	 */
 	public Plantacions get(int i) {
-		return (i < numElem && i > 0) ? llista[i] : null;
+		return (i < numElem && i >= 0) ? llista[i] : null;
 	}
 	
 	/**
@@ -166,15 +166,28 @@ public class LlistaPlantacions {
 	 * @param i
 	 * @param any
 	 * @return absorció de la plantació iessima en un any
+	 * @author Jose Luis
 	 */
 	public double getAbsorcio(int i, int any) {
 		return llista[i].getAbsorcioTotal(any);
 	}
 	
 	/**
+	 * Retorna la absorció de la plantació iessima en un any
+	 * @param i
+	 * @param any
+	 * @return absorció de la plantació iessima en un any
+	 * @author Jose Luis
+	 */
+	public double getAbsorcio(int i, String nomEspecie, int any) {
+		return llista[i].getAbsorcioTotal(nomEspecie, any);
+	}
+	
+	/**
 	 * Retorna la absorció total en un any
 	 * @param any
 	 * @return absorció total en un any
+	 * @author Jose Luis
 	 */
 	public double getAbsorcioTotal(int any) {
 		double absorcioTotal = 0;
@@ -183,14 +196,19 @@ public class LlistaPlantacions {
 		}
 		return absorcioTotal;
 	}
+
 	
 	/**
-	 * Retorna el any més gran que influeix en la absorció de CO2 de les plantes de la plantació
-	 * @return any màxim en que hi ha un canvi en la cuantitat de CO2 que absorbeix una planta
+	 * Retorna el any de plantacio més petit 
+	 * @return any de plantacio més petit
+	 * @author Jose Luis
 	 */
-	public int getMaxAny() {
-		// TODO Implementar getMaxAny() para canviar el maximo del JSlider en la Interfaz Grafica
-		return 0;
+	public int getMinAny() {
+		int minAny = Integer.MAX_VALUE;
+		for (int i = 0; i < numElem; i++) {
+			minAny = Math.min(minAny, llista[i].getAnyPlantacio());
+		}
+		return minAny;
 	}
 	
 }

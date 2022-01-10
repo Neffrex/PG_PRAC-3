@@ -112,4 +112,45 @@ public class Terrenys implements Serializable {
 		}
 		return 0;
 	}
+	
+	public int getIndexPlanta(String nomEspecie) {
+		for (int i = 0; i < plantes.length; i++) {
+			if (plantes[i].getNomCientific().equals(nomEspecie)) {
+				return i;
+			}
+		}
+		return -1;
+	}
+	
+	public int getIndexPlanta(Plantes planta) {
+		for (int i = 0; i < plantes.length; i++) {
+			if (plantes[i].equals(planta)) {
+				return i;
+			}
+		}
+		return -1;
+	}
+	
+	public Plantes getPlanta(String nomEspecie) {
+		for (int i = 0; i < plantes.length; i++) {
+			if (plantes[i].getNomCientific().equals(nomEspecie)) {
+				return plantes[i];
+			}
+		}
+		return null;
+	}
+
+	public int getNumPlanta(Plantes planta) {
+		int index = getIndexPlanta(planta);
+		return (index != -1) ? numPlantes[index] : -1;
+	}
+	
+	public int getUnitats(boolean tipus) {
+		int n = 0;
+		for (int i = 0; i < plantes.length; i++) {
+			n += (plantes[i].tipus == tipus) ? 1 : 0;
+		}
+		return n;
+	}
+
 }

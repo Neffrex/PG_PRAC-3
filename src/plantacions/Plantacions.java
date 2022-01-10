@@ -84,7 +84,7 @@ public class Plantacions {
 		boolean aux = false;
 		
 		for (int i = 0; i < rodals.getNumElem() && aux == false; i++) {
-			if (rodals.getRodal(i).getTipusTerreny().equals(terreny)) {
+			if (rodals.getRodal(i).getTipusTerreny().getNomTerreny().equals(terreny)) {
 				aux = true;
 			}
 		}
@@ -110,7 +110,7 @@ public class Plantacions {
 	 * @author Jose Luis
 	 */
 	public Rodal getRodal(int i) {
-		return rodals.getRodal(i);
+		return (i < rodals.getNumElem() && i > 0) ? rodals.getRodal(i) : null;
 	}
 	
 	
@@ -134,12 +134,41 @@ public class Plantacions {
 	 * @author Jose Luis
 	 */
 	public double getAbsorcioTotal(int any) {
-		int absorcioTotal = 0;
+		double absorcioTotal = 0;
 		for (int i = 0; i < rodals.getNumElem(); i++) {
-			absorcioTotal += rodals.getRodal(i).getAbsorcioTotal(any);
+			absorcioTotal += rodals.getRodal(i).getAbsorcioTotal(anyPlantacio-any);
 		}	
 		return absorcioTotal;
 	}
 	
+	/**
+	 * Retorna la absorció total d'una especie de la plantació en un any
+	 * @param any
+	 * @return absorció total de la plantació en un any
+	 * @author Jose Luis
+	 */
+	public double getAbsorcioTotal(String nomEspecie, int any) {
+		double absorcioTotal = 0;
+		for (int i = 0; i < rodals.getNumElem(); i++) {
+			absorcioTotal += rodals.getRodal(i).getAbsorcioTotal(nomEspecie, anyPlantacio-any);
+		}
+		return absorcioTotal;
+	}
+	
+	public double getSuperficieTotal() {
+		double superficieTotal = 0;
+		for (int i = 0; i < rodals.getNumElem(); i++) {
+			superficieTotal += rodals.getRodal(i).getSuperficie();
+		}
+		return superficieTotal;
+	}
+	
+	public int getUnitats(boolean tipus) {
+		int n = 0;
+		for (int i = 0; i < rodals.getNumElem(); i++) {
+			n += rodals.getRodal(i).getUnitats(tipus);
+		}
+		return n;
+	}
 
 }

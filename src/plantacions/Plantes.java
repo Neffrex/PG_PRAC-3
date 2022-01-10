@@ -14,9 +14,7 @@ public abstract class Plantes {
 		this.tipus=tipus;
 	}
 	
-	public String formatToString() {
-		return null;
-	}
+	public abstract String formatToString();
 	
 	public abstract double getAbsorcio(int any);
 	
@@ -29,4 +27,6 @@ public abstract class Plantes {
 	public boolean getTipus() {
 		return this.tipus;
 	}
+
+	public abstract int getMaxEdad();
 }

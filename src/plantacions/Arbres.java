@@ -132,7 +132,7 @@ public class Arbres extends Plantes{
 		StringBuilder sb = new StringBuilder("Arbre;");
 		sb.append(nomCientific + ';');
 		for (int i = 0; i < intervalsAbsorcions.length; i++) {
-			sb.append(absorcions[i] + ';' + intervalsAbsorcions[i] + ';');
+			sb.append(absorcions[i] + ";" + intervalsAbsorcions[i] + ";");
 		}
 		return sb.toString();
 		
@@ -144,11 +144,17 @@ public class Arbres extends Plantes{
 		
 		int i;
 		for (i = 0; i < absorcions.length-1; i++){
+			if (intervalsAbsorcions[i+1] == 0) break;
 			sb.append(String.format("[%d, %d) -> %,.2f CO2\n", intervalsAbsorcions[i], intervalsAbsorcions[i+1], absorcions[i]));
 		}
 		sb.append(String.format("[%d, inf) -> %,.2f CO2", intervalsAbsorcions[i], absorcions[i]));
 		
 		return sb.toString();
+	}
+
+	@Override
+	public int getMaxEdad() {
+		return intervalsAbsorcions[intervalsAbsorcions.length-1];
 	}
 
 	

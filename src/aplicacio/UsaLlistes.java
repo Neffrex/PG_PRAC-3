@@ -10,36 +10,16 @@ public class UsaLlistes {
 
 	static Scanner teclat=new Scanner(System.in);
 	
+	static LlistaPlantacions llistaPlantacions = new LlistaPlantacions();
+	static LlistaTerrenys llistaTerrenys = new LlistaTerrenys();
+	static LlistaPlantes llistaPlantes = new LlistaPlantes();
+	static int any;
+	
 	public static void main(String[] args) throws IOException {
 		
-		LlistaPlantacions llistaPlantacions = new LlistaPlantacions(1);
-		LlistaRodals llistaRodals = new LlistaRodals(1);
-		
-		int[] intervals1 = {5,8,12,16};
-		int[] intervals2 = {3,11,18,22};
-		int[] intervals3 = {2,4,16,25};
-		double[] absorcions1 = {80,176,220,260,300};
-		double[] absorcions2 = {100,170,200,240,300};
-		double[] absorcions3 = {120,150,170,320,600};
-		
-		Plantes[] plantes = {new Arbres("Arbre1", intervals1, absorcions1),
-							 new Arbres("Arbre2", intervals2, absorcions2),
-							 new Arbres("Arbre3", intervals3, absorcions3),
-							 new Arbustos("Arbust1", 120, 12),
-							 new Arbustos("Arbust1", 150, 17)
-							 };
-		int[] numPlantes = {150,140,220,210,190};
-		llistaRodals.afegir(new Rodal(new Terrenys("Terreny", plantes, numPlantes), 0.97f));
-		llistaPlantacions.afegir(new Plantacions("Plantacion", 2002, llistaRodals));
-		
-		new InterficieGrafica(llistaPlantacions);
-		/*
 		int opcio;
-		int any;
 		
-		LlistaPlantacions llistaPlantacions = new LlistaPlantacions();
-		LlistaTerrenys llistaTerrenys = new LlistaTerrenys();
-		LlistaPlantes llistaPlantes = new LlistaPlantes();
+		
 		
 		do {
 			System.out.println("En quin any estem? (Entre 1953 i 2022)");
@@ -52,58 +32,59 @@ public class UsaLlistes {
 			opcio = Integer.parseInt(teclat.nextLine());
 			switch (opcio) {
 			case 1:
-				System.out.println("Escull els fitxers per cada llista:");
-				System.out.println("Carregant la llista de Plantacions.");
-				llistaPlantacions = carregaLlistaPlantacions(escoger_archivo());
-				System.out.println("Llista carregada!!!");
-				System.out.println("Carregant la llista de Terrenys.");
-				llistaTerrenys = carregaLlistaTerrenys(escoger_archivo());
 				System.out.println("Llista carregada!!!");
 				System.out.println("Carregant la llista de Plantes.");
-				llistaPlantes = carregaLlistaPlantes(escoger_archivo()); 
+				llistaPlantes = carregaLlistaPlantes(new File("./src/Plantas.csv")); 
+				System.out.println("Escull els fitxers per cada llista:");
+				System.out.println("Carregant la llista de Terrenys.");
+				//llistaTerrenys = carregaLlistaTerrenys(new File("./src/Terrenys.ser"));
+				llistaTerrenys = afegirDades("src/prueba.txt");
+				System.out.println("Llista carregada!!!");
+				System.out.println("Carregant la llista de Plantacions.");
+				llistaPlantacions = carregaLlistaPlantacions(new File("./src/Plantaciones.csv"));
 				System.out.println("Llista carregada!!!");
 				break;
 			case 2:
-				opcio2(llistaTerrenys);
+				opcio2();
 				break;
 			case 3:
-				opcio3(llistaPlantacions);
+				opcio3();
 				break;
 			case 4:
-				opcio4(llistaPlantacions);
+				opcio4();
 				break;
 			case 5:
-				opcio5(llistaPlantacions,llistaTerrenys);
+				opcio5();
 				break;
 			case 6:
-				opcio6(llistaPlantes);
+				opcio6();
 				break;
 			case 7: 
-				opcio7(llistaPlantes);
+				opcio7();
 				break;
 			case 8: 
-				opcio8(llistaPlantes);
+				opcio8();
 				break;
 			case 9: 
-				opcio9(llistaPlantacions);
+				opcio9();
 				break;
 			case 10: 
-				opcio10(llistaPlantacions);
+				opcio10();
 				break;
 			case 11: 
-				opcio11(llistaPlantacions);
+				opcio11();
 				break;
 			case 12: 
-				opcio12(any);
+				opcio12();
 				break;
 			case 13: 
-				opcio13(llistaPlantes, llistaPlantacions, llistaTerrenys, any);
+				opcio13();
 				break;
 			case 14: 
-				opcio14(llistaPlantes, llistaPlantacions, llistaTerrenys, any);
+				opcio14();
 				break;
 			case 15: 
-				opcio15(llistaPlantacions, llistaTerrenys, llistaPlantes);
+				opcio15();
 				break;
 			default:
 				System.out.println("Aquesta no es una opcio disponible");
@@ -112,7 +93,8 @@ public class UsaLlistes {
 			
 		} while (opcio != 15);
 		
-		*/
+		new InterficieGrafica(llistaPlantacions, llistaPlantes);
+		
 	}
 	
 	/**
@@ -127,11 +109,12 @@ public class UsaLlistes {
 		LlistaPlantacions llista = new LlistaPlantacions();
 		while (sc.hasNextLine()) {
 			buffer = sc.nextLine();
-			String[] llistaParametres = buffer.split(";");			LlistaRodals llistaRodals = new LlistaRodals((llistaParametres.length -2)/2);
+			String[] llistaParametres = buffer.split(";");			
+			LlistaRodals llistaRodals = new LlistaRodals((llistaParametres.length -2)/2);
 			if (llistaParametres.length % 2 == 0) {
 				for (int i=0; i<(llistaParametres.length-2); i+=2) { 
 					
-					llistaRodals.afegir(new Rodal(llistaParametres[i+3], Float.parseFloat(llistaParametres[i+2].replace(',' , '.'))));
+					llistaRodals.afegir(new Rodal(llistaTerrenys.get(llistaParametres[i+3]), Float.parseFloat(llistaParametres[i+2].replace(',' , '.'))));
 				}
 				llista.afegir(new Plantacions(llistaParametres[0], Integer.parseInt(llistaParametres[1]), llistaRodals));	
 			}else {
@@ -220,7 +203,7 @@ public class UsaLlistes {
 	 * Funcio per guardar la llista de plantacions
 	 * @param llista
 	 */
-	public static void guardaLlistaPlantacions(LlistaPlantacions llista){
+	public static void guardaLlistaPlantacions(){
 		try {																										
 			File fit = new File("Plantacions23.csv");			
 			if (!fit.exists()) {						
@@ -228,10 +211,10 @@ public class UsaLlistes {
 			}
 			PrintWriter pw = new PrintWriter(fit);		
 		
-			for (int i=0; i<llista.getNumElem(); i++) {	
-				pw.printf("%s;%d", llista.getLlista()[i].getNomPartida(), llista.getLlista()[i].getAnyPlantacio());
-				for (int j = 0; j < llista.getLlista()[i].getRodals().getNumElem(); j++) {
-					pw.printf(";%.2f;%s", llista.getLlista()[i].getRodals().getRodal(j).getSuperficie(), llista.getLlista()[i].getRodals().getRodal(j).getTipusTerreny());
+			for (int i=0; i<llistaPlantacions.getNumElem(); i++) {	
+				pw.printf("%s;%d", llistaPlantacions.getLlista()[i].getNomPartida(), llistaPlantacions.getLlista()[i].getAnyPlantacio());
+				for (int j = 0; j < llistaPlantacions.getLlista()[i].getRodals().getNumElem(); j++) {
+					pw.printf(";%.2f;%s", llistaPlantacions.getLlista()[i].getRodals().getRodal(j).getSuperficie(), llistaPlantacions.getLlista()[i].getRodals().getRodal(j).getTipusTerreny());
 				}
 				pw.printf("%n");
 			}
@@ -246,14 +229,14 @@ public class UsaLlistes {
 	 * Funcio per guardar la llista de terrenys
 	 * @param llista
 	 */
-	public static void guardaLlistaTerrenys (LlistaTerrenys llista) {
+	public static void guardaLlistaTerrenys () {
 		ObjectOutputStream outputFile;
 
 		try {
 			outputFile = new ObjectOutputStream(new FileOutputStream("Terrenys.ser"));
 			
-			for (int i = 0; i < llista.getNumElem(); i++) {
-				outputFile.writeObject(llista.getPos(i));
+			for (int i = 0; i < llistaTerrenys.getNumElem(); i++) {
+				outputFile.writeObject(llistaTerrenys.getPos(i));
 			}
 			outputFile.close();
 		}
@@ -261,6 +244,7 @@ public class UsaLlistes {
 			System.out.println("Error arxiu de sortida");
 		}
 	}
+	
 	
 	/**
 	 * 
@@ -275,7 +259,8 @@ public class UsaLlistes {
         Scanner f = new Scanner (new File (aux));
         String[] delimitador1, delimitador2, delimitador3;
         int[] array;
-
+        Plantes[] plantes;
+        
         while (f.hasNextLine()) {
             delimitador1 = f.nextLine().split(";");
             delimitador2 = delimitador1[1].split(",");
@@ -284,12 +269,18 @@ public class UsaLlistes {
             for(int i=0; i<delimitador3.length; i++) {
                 array[i] = Integer.parseInt(delimitador3[i]);
             }
-            llista.afegir(new Terrenys(delimitador1[0], delimitador2, array));
+            plantes = new Plantes[delimitador2.length];
+            for (int i = 0; i < delimitador2.length; i++) {
+            	plantes[i] = llistaPlantes.getPlanta(delimitador2[i]);
+            }
+            
+            llista.afegir(new Terrenys(delimitador1[0], plantes, array));
 
         }
 
         return llista;
     }
+    
 	
 	/**
 	 * Funcio per escullir un arxiu
@@ -326,24 +317,27 @@ public class UsaLlistes {
 	}
 	
 	// 2. Llistar les dades de tots els tipus de terreny.
-	public static void opcio2(LlistaTerrenys llista) {
-		System.out.println(llista.toString());
+	public static void opcio2() {
+		System.out.println(llistaTerrenys.toString());
 	}
 	
 	// 3. Llistar les dades de totes les plantacions
-	public static void opcio3(LlistaPlantacions llista) {
-		System.out.println(llista.toString());
+	public static void opcio3() {
+		System.out.println(llistaPlantacions.toString());
 	}
 	
 	// 4. Llistar les dades de les plantacions que tenen algun rodal dun tipus de terreny
-	public static void opcio4(LlistaPlantacions llista) {
+	public static void opcio4() {
 		System.out.println("Quin tipus de terreny tinteressa?");
 		String terreny = teclat.nextLine();
-		System.out.println(llista.llistaAmbTipusTerreny(terreny).toString());
+		System.out.println(llistaPlantacions.llistaAmbTipusTerreny(terreny).toString());
 	}
 	
 	// 5. Donada una plantacio, mostrar quantes unitats de cada especie shi ha plantat
-	public static void opcio5(LlistaPlantacions llistaPlantacions, LlistaTerrenys llistaTerrenys) {
+	public static void opcio5() {
+		
+		
+		
 		boolean trobat = false;
 		int i = 0;
 		
@@ -366,49 +360,34 @@ public class UsaLlistes {
 	}
 	
 	// 6. Llistar les dades de totes les especies.
-	public static void opcio6(LlistaPlantes llista) {
-		System.out.println(llista.toString());
+	public static void opcio6() {
+		System.out.println(llistaPlantes.toString());
 	}
 	
 	// 7. Donada una especie i una edat, mostrar la quantitat de CO2 que permet absorbir
-	public static void opcio7(LlistaPlantes llista) {
-		System.out.println("Introdueix el nombre cientÃ­fic:");
+	public static void opcio7() {
+		System.out.println("Introdueix el nom cient�fic:");
 		String nomCientific = teclat.nextLine();
 		
-		System.out.println("Introdueix l'edat de la planta:");
-		int any = Integer.parseInt(teclat.nextLine());
-		
-		if (llista.getPlanta(nomCientific)!=null) {
-			if (llista.getPlanta(nomCientific).getTipus()==false) {
-				Arbustos arbust = (Arbustos) llista.getPlanta(nomCientific);
-				System.out.println("Absorcio de larbust "+arbust.getNomCientific()+"es:"+arbust.getAbsorcio(any));
+		try {
+			System.out.println("Introdueix l'edat de la planta:");
+			int edad = Integer.parseInt(teclat.nextLine());
+			
+			Plantes planta = llistaPlantes.getPlanta(nomCientific);
+			
+			if (planta!=null) {
+				System.out.printf("La planta pot absorbir: %f CO2", planta.getAbsorcio(edad));
 			}
 			else {
-				Arbres arbre = (Arbres) llista.getPlanta(nomCientific);
-				System.out.println("Absorcio de larbre "+arbre.getNomCientific()+" es: "+arbre.getAbsorcio(any));
+				System.out.println("No existeix cap planta amb aquest nom en la llista.");
 			}
+		} catch (NumberFormatException e) {
+			System.out.println("Edad invalida");
 		}
-		else {
-			System.out.println("No existeix cap planta amb aquest nom en la llista.");
-		}
-	}
-	
-	public static int opcio7(LlistaPlantes llista, String nomCientific, int edat) {
-		if (llista.getPlanta(nomCientific)!=null) {
-			if (llista.getPlanta(nomCientific).getTipus()==false) {
-				Arbustos arbust = (Arbustos) llista.getPlanta(nomCientific);
-				return arbust.getAbsorcio(edat);
-			}
-			else {
-				Arbres arbre = (Arbres) llista.getPlanta(nomCientific);
-				return (int) arbre.getAbsorcio(edat);
-			}
-		}
-		return 0;
 	}
 	
 	// 8. Afegir una nova especie de planta
-	public static void opcio8(LlistaPlantes llista) {
+	public static void opcio8() {
 		int tipusPlanta=-1;
 		
 		while (!((tipusPlanta==0) || (tipusPlanta==1))) {
@@ -426,7 +405,7 @@ public class UsaLlistes {
 			absorcio=Integer.parseInt(teclat.nextLine());
 			System.out.println("Introdeix l'edat maxima:");
 			edatMaxima=Integer.parseInt(teclat.nextLine());
-			llista.afegirPlanta(new Arbustos(nom, absorcio, edatMaxima));
+			llistaPlantes.afegirPlanta(new Arbustos(nom, absorcio, edatMaxima));
 			System.out.println("Arbust afegit!");
 		}
 		else {
@@ -447,10 +426,10 @@ public class UsaLlistes {
 	}
 	
 	// 9. Esborrar les dades duna plantacio
-	public static void opcio9(LlistaPlantacions llista) {
+	public static void opcio9() {
 		System.out.println("Quina plantacio vols?");
 		String nom = teclat.nextLine();
-		if (llista.eliminar(nom)) {
+		if (llistaPlantacions.eliminar(nom)) {
 			System.out.println("Plantacio eliminada");
 		}
 		else {
@@ -460,15 +439,15 @@ public class UsaLlistes {
 	}
 	
 	// 10. Modificar lany de plantacio duna plantacio
-	public static void opcio10(LlistaPlantacions llista) {
+	public static void opcio10() {
 		boolean trobat = false;
 		int i = 0;
 		
 		System.out.println("Quina plantacio vols?");
 		String nom = teclat.nextLine();
 		
-		for (; i < llista.getNumElem() && trobat == false; i++) {
-			if (llista.getLlista()[i].getNomPartida().equalsIgnoreCase(nom)) {
+		for (; i < llistaPlantacions.getNumElem() && trobat == false; i++) {
+			if (llistaPlantacions.getLlista()[i].getNomPartida().equalsIgnoreCase(nom)) {
 				trobat = true;
 			}
 		}
@@ -479,29 +458,30 @@ public class UsaLlistes {
 		else {
 			System.out.println("A quin any vols cambiar? (Entre 1953 i 2022)");
 			int any = Integer.parseInt(teclat.nextLine());
-			if (llista.getLlista()[--i].getAnyPlantacio() == any) {
+			if (llistaPlantacions.getLlista()[--i].getAnyPlantacio() == any) {
 				System.out.println("Lany de la plantacio ja es aquest");
 			}
 			else if (any < 1952 || any > 2023){
 				System.out.println("Aquest any no es valid");
 			}
 			else {
-				llista.getLlista()[i].setAnyPlantacio(any);
+				llistaPlantacions.getLlista()[i].setAnyPlantacio(any);
 				System.out.println("Any modificat correctament");
 			}
 		}
 	}
 	
 	// 11. Modificar les dades dun rodal duna plantacio
-	public static void opcio11(LlistaPlantacions llista) {
+	public static void opcio11() {
+		
 		boolean trobat = false;
 		int i = 0;
 		
 		System.out.println("De quina plantacio vols modificar algun rodal?");
 		String plantacio = teclat.nextLine();
-		
-		for (; i < llista.getNumElem() && trobat == false; i++) {
-			if (llista.getLlista()[i].getNomPartida() == plantacio) {
+		 
+		for (; i < llistaPlantacions.getNumElem() && trobat == false; i++) {
+			if (llistaPlantacions.getLlista()[i].getNomPartida() == plantacio) {
 				trobat = true;
 			}
 		}
@@ -513,11 +493,11 @@ public class UsaLlistes {
 			System.out.println("Quin rodal vols modificar? (numero)");
 			int j = Integer.parseInt(teclat.nextLine());
 			
-			if (llista.getLlista()[i].getRodals().getNumElem()-1 > j) {
+			if (llistaPlantacions.getLlista()[i].getRodals().getNumElem()-1 > j) {
 				System.out.println("Aquest rodal no existeix");
 			}
 			else {
-				System.out.println("Aquest rodal te: " +llista.getLlista()[i].getRodals().getRodal(j).toString());
+				System.out.println("Aquest rodal te: " +llistaPlantacions.getLlista()[i].getRodals().getRodal(j).toString());
 				String opcio = "";
 				
 				do {
@@ -532,12 +512,17 @@ public class UsaLlistes {
 					System.out.println("Quin es el nou tipus de terreny?");
 					String terreny = teclat.nextLine();
 					
-					if (llista.getLlista()[i].getRodals().getRodal(j).getTipusTerreny().equalsIgnoreCase(terreny)) {
+					if (llistaPlantacions.get(i).getRodal(i).getTipusTerreny().getNomTerreny().equalsIgnoreCase(terreny)) {
 						System.out.println("El tipus de terreny ja es aquest");
 					}
 					else {
-						llista.getLlista()[i].getRodals().getRodal(j).setTipusTerreny(terreny);
-						System.out.println("Tipus de terreny modificat correctament");
+						Terrenys tipusTerreny = llistaTerrenys.get(terreny);
+						if (tipusTerreny != null) {
+							llistaPlantacions.getLlista()[i].getRodals().getRodal(j).setTipusTerreny(tipusTerreny);
+							System.out.println("Tipus de terreny modificat correctament");
+						} else {
+							System.out.println("Aquest tipus de terreny no existeix");
+						}
 					}
 				}	
 				
@@ -556,65 +541,96 @@ public class UsaLlistes {
 					System.out.println("Quina es la nova superficie? (Els decimals amb '.')");
 					double superficie = Double.parseDouble(teclat.nextLine());
 					
-					if (llista.getLlista()[i].getRodals().getRodal(j).getSuperficie() == superficie) {
+					if (llistaPlantacions.getLlista()[i].getRodals().getRodal(j).getSuperficie() == superficie) {
 						System.out.println("La superficie ja es aquesta");
 					}
 					else {
-						llista.getLlista()[i].getRodals().getRodal(j).setSuperficie(superficie);;
+						llistaPlantacions.getLlista()[i].getRodals().getRodal(j).setSuperficie(superficie);
 						System.out.println("Suerficie modificada correctament");
 					}
 				}
 			}
 		}
+		
 	}
+	
+	
 	
 	// 12. Modificar lany en que ens trobem (valor que hem introduit a linici pero que volem
 	// modificar per als calculs seguents)
 
-	public static void opcio12(int any) {
+	public static void opcio12() {
 		do {
-			System.out.println("Introdueix a quin any vols cambiar (1953 - 2002):");
+			System.out.println("Introdueix a quin any vols cambiar (1953 - 2022):");
 			any = Integer.parseInt(teclat.nextLine());
 		} while (any < 1952 || any > 2023);	
 	} 
 	
+	
+	
 	// 13. Mostrar la quantitat de CO2 que permet absorbir cada rodal duna plantacio en lany actual
 	// (indicat a lentrar al programa). Indicarem el nom de la plantacio per teclat
-	public static void opcio13(LlistaPlantes llistaPlantes, LlistaPlantacions llistaPlantacio,LlistaTerrenys llistaTerrenys, int any) {
-		String nom, nomPlanta;
-		Plantacions plantacions=null;
-		LlistaRodals llistaRodals=null;
-		int sumaTotalAbsorcio=0;
-		System.out.println("Indica el nom de la plantaciÃ³:");
-		nom = teclat.nextLine();
-		for (int i=0; i<llistaPlantacio.getNumElem();i++) {
-			if (llistaPlantacio.getLlista()[i].getNomPartida().equalsIgnoreCase(nom)) {
-				plantacions=llistaPlantacio.getLlista()[i];
-				llistaRodals=plantacions.getRodals();
-				System.out.println("Planta trobada!!!"+llistaPlantacio.getLlista()[i].getNomPartida());
+	public static void opcio13() {
+		
+		Plantacions plantacio = llistaPlantacions.get(teclat.nextLine());
+		if (plantacio != null) {
+			for (int i = 0; i < plantacio.getRodals().getNumElem(); i++) {
+				System.out.printf("Absorci� rodal %d = %d\n", i, plantacio.getRodals().getRodal(i).getAbsorcioTotal(plantacio.getAnyPlantacio()-any)); 
 			}
 		}
-		if (plantacions == null) {
-			System.out.println("No existeix aquesta plantacio.");
-			return;
+		
+	}
+	
+	/*		CODI ANTERIOR AMB RETORN DE STRINGS EN LES CLASSES RODALS I TERRENYS, NO TENIR EN COMPTE
+	String nom, nomPlanta;
+	Plantacions plantacions=null;
+	LlistaRodals llistaRodals=null;
+	int sumaTotalAbsorcio=0;
+	System.out.println("Indica el nom de la plantaciÃ³:");
+	nom = teclat.nextLine();
+	for (int i=0; i<llistaPlantacio.getNumElem();i++) {
+		if (llistaPlantacio.getLlista()[i].getNomPartida().equalsIgnoreCase(nom)) {
+			plantacions=llistaPlantacio.getLlista()[i];
+			llistaRodals=plantacions.getRodals();
+			System.out.println("Planta trobada!!!"+llistaPlantacio.getLlista()[i].getNomPartida());
 		}
-		for (int i=0;i<llistaRodals.getNumElem();i++) {
-			for (int j=0; j<llistaTerrenys.getNumElem();j++) {
-				if (llistaRodals.getRodal(i).getTipusTerreny().equalsIgnoreCase(llistaTerrenys.getPos(j).getNomTerreny())) {
-					for (int x=0; x<llistaTerrenys.getPos(j).getPlantes().length;x++) {
-						nomPlanta=llistaTerrenys.getPos(j).getPlantes()[x];
-						sumaTotalAbsorcio=sumaTotalAbsorcio + (llistaTerrenys.getPos(j).getNumPlantes()[x] * opcio7(llistaPlantes, nomPlanta, any-plantacions.getAnyPlantacio()));
-					}
+	}
+	if (plantacions == null) {
+		System.out.println("No existeix aquesta plantacio.");
+		return;
+	}
+	for (int i=0;i<llistaRodals.getNumElem();i++) {
+		for (int j=0; j<llistaTerrenys.getNumElem();j++) {
+			if (llistaRodals.getRodal(i).getTipusTerreny().equalsIgnoreCase(llistaTerrenys.getPos(j).getNomTerreny())) {
+				for (int x=0; x<llistaTerrenys.getPos(j).getPlantes().length;x++) {
+					nomPlanta=llistaTerrenys.getPos(j).getPlantes()[x];
+					sumaTotalAbsorcio=sumaTotalAbsorcio + (llistaTerrenys.getPos(j).getNumPlantes()[x] * opcio7(llistaPlantes, nomPlanta, any-plantacions.getAnyPlantacio()));
 				}
 			}
 		}
-		System.out.println("La quantitat de CO2 que permet absorbir en aquesta plantaciÃ³ Ã©s de "+sumaTotalAbsorcio);
 	}
+	System.out.println("La quantitat de CO2 que permet absorbir en aquesta plantaciÃ³ Ã©s de "+sumaTotalAbsorcio);
+	*/
+	
+	
+	
 	
 	// 14. Mostrar la quantitat de CO2 que permet absorbir el conjunt dunitats plantades duna especie
 	// (entre totes les plantacions que tenim guardades) en lany actual. Indicarem el nom de
 	// lespecie per teclat.
-	public static void opcio14(LlistaPlantes llistaPlantes, LlistaPlantacions llistaPlantacions, LlistaTerrenys llistaTerrenys, int any) {
+	public static void opcio14() {
+		System.out.println("Introdueix el nom de la especie: ");
+		String nomEspecie = teclat.nextLine();
+		double absorcioTotal = 0;
+		
+		for(int i = 0; i < llistaPlantacions.getNumElem(); i++) {
+			absorcioTotal += llistaPlantacions.getAbsorcio(i, nomEspecie, any);
+		}
+		
+		System.out.printf("Absorci� que permet absorbir la especie %s = %f\n", nomEspecie, absorcioTotal);
+	}
+	
+	/*	CODI ANTIC AMB LES CLASSES RODALS I TERRENYS DESACTUALITZAT
 		String especie=null;
 		int sumaTotalAbsorcio=0;
 		System.out.println("Introdueix el nom de l'especie:");
@@ -622,7 +638,7 @@ public class UsaLlistes {
 		LlistaRodals llistaRodals=null;
 		for (int i=0; i<llistaPlantacions.getNumElem();i++) {	//NOS DA PLANTACIONS
 			for (int j=0; j<llistaPlantacions.getLlista()[i].getRodals().getNumElem();j++) {	//NOS DA LISTA RODALES
-				llistaRodals=llistaPlantacions.getLlista()[i].getRodals();		//
+				llistaRodals=llistaPlantacions.getLlista()[i].getRodals();
 				for (int k=0;k<llistaTerrenys.getNumElem();k++) {				//NOS DA TERRENYS
 					if (llistaRodals.getRodal(j).getTipusTerreny().equalsIgnoreCase(llistaTerrenys.getPos(k).getNomTerreny())) {					
 						for (int x=0;x<llistaTerrenys.getPos(k).getNumPlantes().length;x++) {
@@ -636,9 +652,12 @@ public class UsaLlistes {
 		}
 		System.out.println("La quantitat de CO2 absorbeix aquesta especie en les plantacions es de:"+sumaTotalAbsorcio);
 	}
+	*/
+	
+	
 	
 	// 15. Sortir. Permetre sortir guardant la informacio de les classes als fitxers o no.
-	public static void opcio15(LlistaPlantacions llistaPlantacions, LlistaTerrenys llistaTerrenys, LlistaPlantes llistaPlantes) {
+	public static void opcio15() {
 		String opcio;
 		do {
 			System.out.println("Vols guardar els fitxers modificats? (0-Si  1-No)");
@@ -649,9 +668,9 @@ public class UsaLlistes {
 		}while (!(opcio.equalsIgnoreCase("Si") || opcio.equalsIgnoreCase("No")));
 		if (opcio.equals("Si")){
 			System.out.println("Les dades es guardaran en els fitxers originals.");
-			guardaLlistaPlantacions(llistaPlantacions);
-			guardaLlistaTerrenys(llistaTerrenys);
-			//guardaLlistaPlantes(llistaPlantes);
+			guardaLlistaPlantacions();
+			guardaLlistaTerrenys();
+			llistaPlantes.guardarEnFitxer();
 		}
 		else{
 			System.out.println("Has sortit del programa.");
