@@ -8,7 +8,7 @@ package llistes;
 import plantacions.*;
 
 public interface TADLlistaPlantes {
-
+	
 	/*
 	 * Métode per afegir una planta a la llista
 	 * @param planta: planta a afegir a la llista
