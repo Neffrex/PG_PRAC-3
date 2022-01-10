@@ -20,6 +20,14 @@ public class LlistaPlantacions {
 	}
 	
 	/**
+	 * Constructor de la llista de plantacions
+	 */
+	public LlistaPlantacions(int mida) {
+		llista = new Plantacions[mida];
+		numElem = 0;
+	}
+	
+	/**
 	 * Afegir una plantacio
 	 * @param plantacions
 	 */
@@ -114,4 +122,75 @@ public class LlistaPlantacions {
 		}
 		return aux;
 	}
+	
+	/**
+	 * Retorna el CO2 màxim de totes les plantacions
+	 * @return CO2 màxim
+	 * @author Jose Luis
+	 */
+	public double getMaxCO2() {
+		double maxCO2 = 0;
+		for (int i = 0; i < numElem; i++) {
+			maxCO2 = Math.max(maxCO2, llista[i].getMaxCO2());
+		}
+		return maxCO2;
+	}
+	
+	/**
+	 * Retorna la plantació iessima
+	 * @param i
+	 * @return plantació iessima
+	 * @author Jose Luis
+	 */
+	public Plantacions get(int i) {
+		return (i < numElem && i > 0) ? llista[i] : null;
+	}
+	
+	/**
+	 * Retorna la plantació a partir del seu nom
+	 * @param nom nom de la plantació a retornar
+	 * @return plantació amb el nom donat
+	 * @author Jose Luis
+	 */
+	public Plantacions get(String nom) {
+		for (int i = 0; i < numElem; i++) {
+			if (llista[i].getNomPartida().equals(nom)) {
+				return llista[i];
+			}
+		}
+		return null;
+	}
+	
+	/**
+	 * Retorna la absorció de la plantació iessima en un any
+	 * @param i
+	 * @param any
+	 * @return absorció de la plantació iessima en un any
+	 */
+	public double getAbsorcio(int i, int any) {
+		return llista[i].getAbsorcioTotal(any);
+	}
+	
+	/**
+	 * Retorna la absorció total en un any
+	 * @param any
+	 * @return absorció total en un any
+	 */
+	public double getAbsorcioTotal(int any) {
+		double absorcioTotal = 0;
+		for (int i = 0; i < numElem; i++) {
+			absorcioTotal += llista[i].getAbsorcioTotal(any);
+		}
+		return absorcioTotal;
+	}
+	
+	/**
+	 * Retorna el any més gran que influeix en la absorció de CO2 de les plantes de la plantació
+	 * @return any màxim en que hi ha un canvi en la cuantitat de CO2 que absorbeix una planta
+	 */
+	public int getMaxAny() {
+		// TODO Implementar getMaxAny() para canviar el maximo del JSlider en la Interfaz Grafica
+		return 0;
+	}
+	
 }

@@ -11,6 +11,29 @@ public class UsaLlistes {
 	static Scanner teclat=new Scanner(System.in);
 	
 	public static void main(String[] args) throws IOException {
+		
+		LlistaPlantacions llistaPlantacions = new LlistaPlantacions(1);
+		LlistaRodals llistaRodals = new LlistaRodals(1);
+		
+		int[] intervals1 = {5,8,12,16};
+		int[] intervals2 = {3,11,18,22};
+		int[] intervals3 = {2,4,16,25};
+		double[] absorcions1 = {80,176,220,260,300};
+		double[] absorcions2 = {100,170,200,240,300};
+		double[] absorcions3 = {120,150,170,320,600};
+		
+		Plantes[] plantes = {new Arbres("Arbre1", intervals1, absorcions1),
+							 new Arbres("Arbre2", intervals2, absorcions2),
+							 new Arbres("Arbre3", intervals3, absorcions3),
+							 new Arbustos("Arbust1", 120, 12),
+							 new Arbustos("Arbust1", 150, 17)
+							 };
+		int[] numPlantes = {150,140,220,210,190};
+		llistaRodals.afegir(new Rodal(new Terrenys("Terreny", plantes, numPlantes), 0.97f));
+		llistaPlantacions.afegir(new Plantacions("Plantacion", 2002, llistaRodals));
+		
+		new InterficieGrafica(llistaPlantacions);
+		/*
 		int opcio;
 		int any;
 		
@@ -89,7 +112,7 @@ public class UsaLlistes {
 			
 		} while (opcio != 15);
 		
-		
+		*/
 	}
 	
 	/**

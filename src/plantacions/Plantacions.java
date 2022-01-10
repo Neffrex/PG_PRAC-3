@@ -103,6 +103,43 @@ public class Plantacions {
 		return aux;
 	}
 
-    
+	/**
+	 * Retorna el rodal iessim 
+	 * @param i
+	 * @return rodal iessim
+	 * @author Jose Luis
+	 */
+	public Rodal getRodal(int i) {
+		return rodals.getRodal(i);
+	}
+	
+	
+	/**
+	 * Retorna el CO2 màxim de la plantacio
+	 * @return CO2 màxim
+	 * @author Jose Luis
+	 */
+	public double getMaxCO2() {
+		double maxCO2 = 0;
+		for (int i = 0; i < rodals.getNumElem(); i++) {
+			maxCO2 = Math.max(maxCO2, rodals.getRodal(i).getMaxCO2());
+		}
+		return maxCO2;
+	}
+	
+	/**
+	 * Retorna la absorció total de la plantació en un any
+	 * @param any
+	 * @return absorció total de la plantació en un any
+	 * @author Jose Luis
+	 */
+	public double getAbsorcioTotal(int any) {
+		int absorcioTotal = 0;
+		for (int i = 0; i < rodals.getNumElem(); i++) {
+			absorcioTotal += rodals.getRodal(i).getAbsorcioTotal(any);
+		}	
+		return absorcioTotal;
+	}
+	
 
 }

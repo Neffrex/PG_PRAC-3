@@ -62,5 +62,4 @@ public class LlistaTerrenys  {
 		return aux;
 	}
 	
-
 }

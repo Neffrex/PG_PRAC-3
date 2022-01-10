@@ -18,6 +18,10 @@ public abstract class Plantes {
 		return null;
 	}
 	
+	public abstract double getAbsorcio(int any);
+	
+	public abstract double getMaxCO2();
+	
 	public String getNomCientific() {
 		return this.nomCientific;
 	}

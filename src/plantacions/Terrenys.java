@@ -12,7 +12,7 @@ public class Terrenys implements Serializable {
 	private static final long serialVersionUID = 1;
 	
 	private String nomTerreny;
-	private String[] plantes;
+	private Plantes[] plantes;
 	private int[] numPlantes;
 	
 	/**
@@ -21,17 +21,10 @@ public class Terrenys implements Serializable {
 	 * @param plantes
 	 * @param numPlantes
 	 */
-	public Terrenys (String nomTerreny, String[] plantes, int[] numPlantes) {
+	public Terrenys (String nomTerreny, Plantes[] plantes, int[] numPlantes) {
 		this.nomTerreny = nomTerreny;
-		this.plantes = new String[plantes.length];
-		this.numPlantes = new int[numPlantes.length];
-		
-		for(int i=0; i<plantes.length; i++) {
-			this.plantes[i] = plantes[i];
-		}
-		for(int i=0; i<numPlantes.length; i++) {
-			this.numPlantes[i] = numPlantes[i];
-		}
+		this.plantes = plantes;
+		this.numPlantes = numPlantes;
 	}
 	
 	/**
@@ -54,7 +47,7 @@ public class Terrenys implements Serializable {
 	 * Getter
 	 * @return - totes les plantes
 	 */
-	public String[] getPlantes() {
+	public Plantes[] getPlantes() {
 		return plantes;
 	}
 	
@@ -63,7 +56,7 @@ public class Terrenys implements Serializable {
 	 * @param i
 	 * @return - planta especifica
 	 */
-	public String getIessimaPlanta(int i) {
+	public Plantes getIessimaPlanta(int i) {
 		return plantes[i];
 	}
 	
@@ -72,7 +65,7 @@ public class Terrenys implements Serializable {
 	 * @param planta
 	 * @param i
 	 */
-	public void setIessimaPlanta(String planta, int i) {
+	public void setIessimaPlanta(Plantes planta, int i) {
 		plantes[i] = planta;
 	}
 	
@@ -105,5 +98,18 @@ public class Terrenys implements Serializable {
 	public String toString() {
 		return "nomTerreny = " + nomTerreny + ", plantes = " + Arrays.toString(plantes) + "\n\t\t\t\tnumPlantes = "
 				+ Arrays.toString(numPlantes);
+	}
+	
+	/**
+	 * Retorna la absorció total del terreny en un any
+	 * @param any
+	 * @return absorció total del terreny en un any
+	 * @author Jose Luis
+	 */
+	public double getAbsorcioTotal(int any) {
+		for (int i = 0; i < plantes.length; i++) {
+			plantes[i].getAbsorcio(any);
+		}
+		return 0;
 	}
 }

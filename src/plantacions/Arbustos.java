@@ -5,15 +5,16 @@
 package plantacions;
 
 public class Arbustos extends Plantes{
-	private int absorcio, edatMaxima;
+	private int edatMaxima;
+	private double absorcio;
 	
-	public Arbustos(String nomCientific, int absorcio, int edatMaxima) {
+	public Arbustos(String nomCientific, double absorcio, int edatMaxima) {
 		super(nomCientific, Plantes.ARBUSTICA);
 		this.absorcio=absorcio;
 		this.edatMaxima=edatMaxima;
 	}
 	
-	public int getAbsorcio(int edat) {
+	public double getAbsorcio(int edat) {
 		if ((edat>5)&&(edat<edatMaxima)) {
 			return this.absorcio;
 		}else {
@@ -29,7 +30,7 @@ public class Arbustos extends Plantes{
 		this.edatMaxima = edatMaxima;
 	}
 
-	public void setAbsorcio(int absorcio) {
+	public void setAbsorcio(double absorcio) {
 		this.absorcio = absorcio;
 	}
 	
@@ -41,6 +42,11 @@ public class Arbustos extends Plantes{
 	@Override
 	public String toString() {
 		return "Arbustos [absorcio=" + absorcio + ", edatMaxima=" + edatMaxima + "]";
+	}
+
+	@Override
+	public double getMaxCO2() {
+		return absorcio;
 	}
 	
 }

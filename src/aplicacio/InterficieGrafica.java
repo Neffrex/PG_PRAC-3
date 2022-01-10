@@ -45,7 +45,6 @@ public class InterficieGrafica extends JFrame {
 	// Atributs
 	private int anyActual;
 	private int numPlantacions;
-	private int maxCO2;
 	private LlistaPlantacions llistaPlantacions;
 	
 	public InterficieGrafica(LlistaPlantacions llistaPlantacions) {
@@ -54,7 +53,6 @@ public class InterficieGrafica extends JFrame {
 		
 		numPlantacions = llistaPlantacions.getNumElem();
 		anyActual = 0;
-		maxCO2 = 100; //TODO maxCO2 ponerlo al CO2 maximo de todas las plantaciones
 		
 		setPreferredSize(new Dimension(AMPLADA, ALTURA));
 		setLocationRelativeTo(null);
@@ -82,10 +80,10 @@ public class InterficieGrafica extends JFrame {
 		System.out.println(Arrays.toString(botons));
 		
 		/*		Selector d'any		@dependencies: botons, etiquetaAny		*/
-		selectorAny = new JSlider(JSlider.HORIZONTAL, 0, numPlantacions, 0);
+		selectorAny = new JSlider(JSlider.HORIZONTAL, 0, 100, 0);
 		selectorAny.setPaintLabels(true);
 		selectorAny.setMajorTickSpacing(10);
-		selectorAny.addChangeListener(new CanviAnyListener(numPlantacions, maxCO2, botons, etiquetaAny, llistaPlantacions));
+		selectorAny.addChangeListener(new CanviAnyListener(numPlantacions, botons, etiquetaAny, llistaPlantacions));
 		
 		/*		Panel Scroll de les Plantacions		@dependencies: panelPlantacions, selectorAny, etiquetaAny*/
 		panelScrollPlantaciones = new JScrollPane();

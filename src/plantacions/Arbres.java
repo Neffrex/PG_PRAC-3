@@ -34,16 +34,34 @@ public class Arbres extends Plantes{
 	 * @return La absorciÃ³ de l'arbre a l'<code>any</code> donat
 	 */
 	public double getAbsorcio(int any) {
-		return absorcions[getIndexIntervalInf(any)];
+		return (any > intervalsAbsorcions[0]) ? absorcions[getIndexIntervalInf(any)] : 0;
+	}
+	
+	/**
+	 * Retorna la absorció més gran que pot absorbir la planta
+	 * @return absorció màxima
+	 */
+	public double getMaxCO2() {
+		double maxCO2 = 0;
+		for (int i = 0; i < intervalsAbsorcions.length; i++) {
+			maxCO2 = Math.max(maxCO2, getAbsorcio(intervalsAbsorcions[i]));
+		}
+		return maxCO2;
 	}
 
 	/**
 	 * CanvÃ­a la absorciÃ³ de l'interval al que pertanyi un any
 	 * @param absorcio Nova absorciÃ³ de l'interval
 	 * @param any Any pertinent a l'interval a canviar
+	 * @return <code>true</code> si l'any perteneix a un interval y s'ha pogut actualitzar l'absorció o
+	 * <code>fals</code> en cas contrari.
 	 */
-	public void setAbsorcio(double absorcio, int any) {
-		this.absorcions[getIndexIntervalInf(any)] = absorcio;
+	public boolean setAbsorcio(double absorcio, int any) {
+		if (absorbeixCO2(any)) {
+			this.absorcions[getIndexIntervalInf(any)] = absorcio;
+			return true;
+		}
+		return false;
 	}
 	
 	/**
@@ -64,9 +82,9 @@ public class Arbres extends Plantes{
 	}
 	
 	/**
-	 * Retorna la posiciÃ³ del limit inferior de l'interval al que pertany un any
+	 * Retorna la posició del limit inferior de l'interval al que pertany un any
 	 * @param any Any pertinent al interval a tractar
-	 * @return PosiciÃ³ del limit inferior del interval al que pertany <code>any</code>
+	 * @return Posició del limit inferior del interval al que pertany <code>any</code> o -1 si no pertany a cap
 	 */
 	private int getIndexIntervalInf(int any) {
 		int pos = intervalsAbsorcions.length-1;
@@ -86,7 +104,7 @@ public class Arbres extends Plantes{
 	 * @param high <code>true</code> si l'ordre es de menor a major, <code>false</code> en cas contrari 
 	 * @return <code>true</code> si tots els elements estÃ n en ordre o <code>fals</code> si no ho estÃ n
 	 */
-	public static boolean isOrdered(int[] a, boolean high) {
+	private static boolean isOrdered(int[] a, boolean high) {
 		if (high) {
 			for (int i = 1; i < a.length; i++) {
 				if (a[i-1] > a[i]) return false;
@@ -98,6 +116,15 @@ public class Arbres extends Plantes{
 		}
 		
 		return true;
+	}
+	
+	/**
+	 * Retorna si l'arbre produeix CO2 en un any
+	 * @param any l'any a veure si produeix CO2 l'arbre
+	 * @return <code>true</code> si produeix CO2 en l'any donat o <code>fals</code> en cas contrari
+	 */
+	public boolean absorbeixCO2(int any) {
+		return any > intervalsAbsorcions[0];
 	}
 	
 	@Override
