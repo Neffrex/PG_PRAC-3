@@ -12,17 +12,16 @@ public class UsaLlistes {
 
 	public static void main(String[] args) {
 		
-		new InterficieGrafica();
-		
 		LlistaPlantes llistaPlantes = new LlistaPlantes(50);
 		comprobarLlista(llistaPlantes);
 		
-		LlistaPlantacions llistaPlantacions = new LlistaPlantacions(5);
+		LlistaPlantacions llistaPlantacions = new LlistaPlantacions();
 		comprobarLlista(llistaPlantacions);
 		
 		LlistaTerrenys llistaTerrenys = new LlistaTerrenys(2);
 		comprobarLlista(llistaTerrenys);
 		
+		new InterficieGrafica(llistaPlantacions);
 	}
 	
 	public static void comprobarLlista(LlistaPlantacions llista) {

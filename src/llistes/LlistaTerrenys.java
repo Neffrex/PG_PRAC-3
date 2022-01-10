@@ -24,6 +24,7 @@ public class LlistaTerrenys {
 			numElem++;
 		}
 	}
+	
 	public String toString() {
 		String aux;
 		if ( numElem == 0) {
